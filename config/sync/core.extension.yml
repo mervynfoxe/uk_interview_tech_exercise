@@ -17,6 +17,7 @@ module:
   components: 0
   config: 0
   contact: 0
+  content_snapshot: 0
   contextual: 0
   crop: 0
   datetime: 0
@@ -93,6 +94,7 @@ module:
   redirect: 0
   responsive_image: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   tab_toolbar: 0
