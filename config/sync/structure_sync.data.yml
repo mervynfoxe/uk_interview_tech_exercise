@@ -1,0 +1,101 @@
+taxonomies:
+  media_tags: {  }
+  news_events_categories: {  }
+  people_categories: {  }
+  semester:
+    -
+      vid: semester
+      tid: '1'
+      langcode: en
+      name: 'Fall 2023'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 34493380-a8c5-4cdf-8570-e17b3dad0923
+      field_end_date:
+        -
+          value: '2023-12-15'
+      field_start_date:
+        -
+          value: '2023-08-21'
+    -
+      vid: semester
+      tid: '2'
+      langcode: en
+      name: 'Winter 2023'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9fae6d51-9461-42cd-832e-8e2bbf4d6f59
+      field_end_date:
+        -
+          value: '2024-01-05'
+      field_start_date:
+        -
+          value: '2023-12-18'
+    -
+      vid: semester
+      tid: '3'
+      langcode: en
+      name: 'Spring 2024'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d3f64035-c336-4d4c-9008-83116f0c5797
+      field_end_date:
+        -
+          value: '2024-05-03'
+      field_start_date:
+        -
+          value: '2024-01-08'
+    -
+      vid: semester
+      tid: '4'
+      langcode: en
+      name: 'Summer 2024'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fdd87454-b001-42ca-a422-1d7b7481fe8e
+      field_end_date:
+        -
+          value: '2024-08-08'
+      field_start_date:
+        -
+          value: '2024-05-13'
+    -
+      vid: semester
+      tid: '5'
+      langcode: en
+      name: 'Fall 2024'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f8f406ad-1ced-453a-8a73-52645ab459e6
+      field_end_date:
+        -
+          value: '2024-12-20'
+      field_start_date:
+        -
+          value: '2024-08-26'
+    -
+      vid: semester
+      tid: '6'
+      langcode: en
+      name: 'Winter 2024'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c82ef6d7-89c8-4650-8128-a18df4fd9361
+      field_end_date:
+        -
+          value: '2025-01-10'
+      field_start_date:
+        -
+          value: '2024-12-23'
