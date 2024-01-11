@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.course.body
+    - field.field.node.course.field_college_and_department
     - field.field.node.course.field_course_number
     - field.field.node.course.field_semesters_offered
     - field.field.node.course.field_sign_up_link
@@ -32,6 +33,14 @@ content:
     weight: 2
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_college_and_department:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_course_number:
     type: string_textfield

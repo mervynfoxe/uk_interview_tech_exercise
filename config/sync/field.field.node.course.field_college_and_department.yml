@@ -1,0 +1,19 @@
+uuid: 3e11fa2d-d878-4a63-87e8-6a1047556ed5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_college_and_department
+    - node.type.course
+id: node.course.field_college_and_department
+field_name: field_college_and_department
+entity_type: node
+bundle: course
+label: 'College and Department'
+description: 'The college/department that provides this course.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
