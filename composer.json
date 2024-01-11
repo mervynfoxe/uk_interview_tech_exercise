@@ -5,8 +5,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "University of Kentucky Webcom",
-      "email": "universitywebservices@l.uky.edu"
+      "name": "University of Kentucky Webcom, Ren Fox",
+      "email": "ren.m.fox@gmail.com"
     }
   ],
   "repositories": [
@@ -24,7 +24,7 @@
     }
   ],
   "support": {
-    "source": "https://github.com/uky-web/project_template"
+    "source": "https://github.com/mervynfoxe/uk_interview_tech_exercise"
   },
   "require": {
     "composer/installers": "^1.2",
@@ -55,7 +55,8 @@
       "zaporylie/composer-drupal-optimizations": true,
       "drupal/console-extend-plugin": true,
       "oomphinc/composer-installers-extender": true
-    }
+    },
+    "platform-check": false
   },
   "autoload": {
     "classmap": [
