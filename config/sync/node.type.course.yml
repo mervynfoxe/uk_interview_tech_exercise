@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Course
 type: course
-description: ''
+description: 'University courses and related info'
 help: ''
 new_revision: true
 preview_mode: 1

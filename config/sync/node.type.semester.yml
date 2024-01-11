@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Semester
 type: semester
-description: ''
+description: 'University semesters and associated info'
 help: ''
 new_revision: true
 preview_mode: 1
