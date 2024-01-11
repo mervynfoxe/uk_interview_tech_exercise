@@ -1,0 +1,79 @@
+nid:
+  -
+    value: 1
+uuid:
+  -
+    value: e788ba57-a7e7-4421-b5e5-1c7bb93a0c4f
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: semester
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-11T20:53:01+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Spring 2024'
+created:
+  -
+    value: '2024-01-11T20:38:21+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-11T20:53:01+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Spring 2024 | UK Tech Exercise - Ren Fox'
+    canonical_url: 'http://default/node/1'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/1'
+    og_title: 'Spring 2024 | UK Tech Exercise - Ren Fox'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body: {  }
+field_end_date:
+  -
+    value: '2024-05-03'
+field_start_date:
+  -
+    value: '2024-01-08'
+_content_snapshot_metadata:
+  id: '1'
+  uuid: e788ba57-a7e7-4421-b5e5-1c7bb93a0c4f
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: semester
+    is_translatable: false

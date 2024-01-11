@@ -1,0 +1,26 @@
+id:
+  -
+    value: 2
+uuid:
+  -
+    value: ff8d51fb-8c3a-475a-899a-34e37e3992f9
+langcode:
+  -
+    value: und
+path:
+  -
+    value: /webform/contact
+alias:
+  -
+    value: /form/contact
+status:
+  -
+    value: true
+_content_snapshot_metadata:
+  id: '2'
+  uuid: ff8d51fb-8c3a-475a-899a-34e37e3992f9
+  type: content_entity
+  additional:
+    entity_type: path_alias
+    bundle: path_alias
+    is_translatable: false

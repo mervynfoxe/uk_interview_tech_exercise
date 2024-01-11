@@ -1,0 +1,45 @@
+fid:
+  -
+    value: 1
+uuid:
+  -
+    value: db2cad05-1e3b-4b35-b163-99d7d036130c
+langcode:
+  -
+    value: en
+uid:
+  -
+    target_id: 0
+    target_type: user
+filename:
+  -
+    value: file_browser_icon.png
+uri:
+  -
+    value: 'public://file_browser_icon.png'
+    url: /sites/default/files/file_browser_icon.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 304
+status:
+  -
+    value: true
+created:
+  -
+    value: '2024-01-11T19:32:03+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-11T19:32:03+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_snapshot_metadata:
+  id: '1'
+  uuid: db2cad05-1e3b-4b35-b163-99d7d036130c
+  type: content_entity
+  additional:
+    entity_type: file
+    bundle: file
+    is_translatable: false

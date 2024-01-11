@@ -1,0 +1,44 @@
+id:
+  -
+    value: 1
+uuid:
+  -
+    value: 0eb1948b-251e-4911-ac1e-5895d840bfd4
+langcode:
+  -
+    value: en
+shortcut_set:
+  -
+    target_id: default
+    target_type: shortcut_set
+title:
+  -
+    value: 'Add content'
+weight:
+  -
+    value: -20
+link:
+  -
+    uri: 'internal:/node/add'
+    title: null
+    options: {  }
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: '| UK Tech Exercise - Ren Fox'
+    canonical_url: 'http://default/user/login'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+_content_snapshot_metadata:
+  id: '1'
+  uuid: 0eb1948b-251e-4911-ac1e-5895d840bfd4
+  type: content_entity
+  additional:
+    entity_type: shortcut
+    bundle: default
+    is_translatable: false

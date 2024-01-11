@@ -1,0 +1,26 @@
+id:
+  -
+    value: 7
+uuid:
+  -
+    value: be762ef0-3e27-441a-9d89-9c0c145b87c1
+langcode:
+  -
+    value: en
+path:
+  -
+    value: /webform/contact/drafts
+alias:
+  -
+    value: /form/contact/drafts
+status:
+  -
+    value: true
+_content_snapshot_metadata:
+  id: '7'
+  uuid: be762ef0-3e27-441a-9d89-9c0c145b87c1
+  type: content_entity
+  additional:
+    entity_type: path_alias
+    bundle: path_alias
+    is_translatable: false

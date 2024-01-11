@@ -1,0 +1,26 @@
+id:
+  -
+    value: 6
+uuid:
+  -
+    value: 7c61a486-5ce2-4129-bc42-554e0e5aa461
+langcode:
+  -
+    value: und
+path:
+  -
+    value: /webform/contact/submissions
+alias:
+  -
+    value: /form/contact/submissions
+status:
+  -
+    value: true
+_content_snapshot_metadata:
+  id: '6'
+  uuid: 7c61a486-5ce2-4129-bc42-554e0e5aa461
+  type: content_entity
+  additional:
+    entity_type: path_alias
+    bundle: path_alias
+    is_translatable: false

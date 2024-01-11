@@ -1,0 +1,79 @@
+nid:
+  -
+    value: 4
+uuid:
+  -
+    value: 63b9b761-4830-4b36-846a-7a8d1f079919
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: semester
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-11T20:54:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Winter 2024'
+created:
+  -
+    value: '2024-01-11T20:40:25+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-11T20:54:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Winter 2024 | UK Tech Exercise - Ren Fox'
+    canonical_url: 'http://default/node/4'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/4'
+    og_title: 'Winter 2024 | UK Tech Exercise - Ren Fox'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body: {  }
+field_end_date:
+  -
+    value: '2025-01-10'
+field_start_date:
+  -
+    value: '2024-12-23'
+_content_snapshot_metadata:
+  id: '4'
+  uuid: 63b9b761-4830-4b36-846a-7a8d1f079919
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: semester
+    is_translatable: false

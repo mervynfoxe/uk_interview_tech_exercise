@@ -1,0 +1,26 @@
+id:
+  -
+    value: 3
+uuid:
+  -
+    value: 738ed0aa-5fe4-4572-94b7-3be0afc5d817
+langcode:
+  -
+    value: en
+path:
+  -
+    value: /webform/contact/confirmation
+alias:
+  -
+    value: /form/contact/confirmation
+status:
+  -
+    value: true
+_content_snapshot_metadata:
+  id: '3'
+  uuid: 738ed0aa-5fe4-4572-94b7-3be0afc5d817
+  type: content_entity
+  additional:
+    entity_type: path_alias
+    bundle: path_alias
+    is_translatable: false

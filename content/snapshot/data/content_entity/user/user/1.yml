@@ -1,0 +1,86 @@
+uid:
+  -
+    value: 1
+uuid:
+  -
+    value: 726a9f61-48c6-4b99-a307-87f7de2f72d0
+langcode:
+  -
+    value: en
+preferred_langcode:
+  -
+    value: en
+preferred_admin_langcode: {  }
+name:
+  -
+    value: fox
+pass:
+  -
+    value: $2y$10$Fz2cDfPhIY4XwzZdYLsO1evKmOhARa9dqYzJZBjUaneJaaKuFgXMG
+    pre_hashed: true
+mail:
+  -
+    value: ren.m.fox@gmail.com
+timezone:
+  -
+    value: America/New_York
+status:
+  -
+    value: true
+created:
+  -
+    value: '2024-01-11T19:24:55+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-11T19:33:44+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2024-01-11T21:20:10+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2024-01-11T19:33:44+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: ren.m.fox@gmail.com
+roles:
+  -
+    target_id: administrator
+    target_type: user_role
+default_langcode:
+  -
+    value: true
+ldap_user_puid_sid: {  }
+ldap_user_puid: {  }
+ldap_user_puid_property: {  }
+ldap_user_current_dn: {  }
+ldap_user_prov_entries: {  }
+ldap_user_last_checked: {  }
+ldap_user_ldap_exclude: {  }
+metatag:
+  value:
+    title: 'fox | UK Tech Exercise - Ren Fox'
+    description: 'UK Tech Exercise - Ren Fox'
+    canonical_url: 'http://default/user/1'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+user_picture: {  }
+_content_snapshot_metadata:
+  id: '1'
+  uuid: 726a9f61-48c6-4b99-a307-87f7de2f72d0
+  type: content_entity
+  additional:
+    entity_type: user
+    bundle: user
+    is_translatable: false
