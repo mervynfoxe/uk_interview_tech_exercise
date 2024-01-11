@@ -1,0 +1,21 @@
+uuid: 471ada00-30c9-418a-a421-d253dd888d10
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: UVOkmqysjznEZwwGM238HQXaZ9OBetj3TAETO--ATsU
+id: person_node
+label: 'Person Node'
+logic: and
+conditions:
+  d46fb396-b9a3-45eb-912d-de6720d86f37:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d46fb396-b9a3-45eb-912d-de6720d86f37
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      person: person
+allow_other_conditions: false

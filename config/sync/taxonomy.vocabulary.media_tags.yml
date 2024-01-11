@@ -1,0 +1,10 @@
+uuid: 624b4da8-b9e3-4798-a29a-0d45e756e301
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8Y7NU9x5DpwgDhiTq547BRigBN39c9Rbxv84_qA8gC8
+name: 'Media Tags'
+vid: media_tags
+description: 'Organization for media'
+weight: 0

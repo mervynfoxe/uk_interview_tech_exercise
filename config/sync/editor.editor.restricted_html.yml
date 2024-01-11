@@ -1,0 +1,62 @@
+uuid: 89c5bff1-9ddb-428e-a71f-1ce8095e8b40
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: PVZIJu5AHCTQwA939H0vlufAD2alvTnKLB25Z4tFsNg
+format: restricted_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Styles
+            - Format
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - '-'
+            - media
+            - '-'
+        -
+          name: Table
+          items:
+            - Table
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: uky_base_linkit
+    stylescombo:
+      styles: "p.intro|Intro text\r\na.link--fancy|Fancy link\r\ntable.content-table|Content Table\r\ndiv.table-wrapper|Table Wrapper"
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

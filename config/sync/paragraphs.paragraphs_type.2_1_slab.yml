@@ -1,0 +1,12 @@
+uuid: e339a2de-fd86-4ec4-a419-4397317231fd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YD9ID44wLfZsD7H8TgddUZbwQjLQLiBC5kA5dYTqjIU
+id: 2_1_slab
+label: '*2:1 Slab'
+icon_uuid: null
+icon_default: null
+description: 'A content + aside slab'
+behavior_plugins: {  }

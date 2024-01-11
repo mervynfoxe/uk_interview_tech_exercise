@@ -1,0 +1,11 @@
+uuid: 0681dd23-5a7d-4bb3-b2a2-b23dc6ebcd3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.collection_item
+_core:
+  default_config_hash: RzHsJxO4RSUVg14u1sDtUHCcW9YCI6ktddp_e0us_7M
+type: statistic
+name: Statistic
+description: 'A large number or number-like phrase with some short explanation.'

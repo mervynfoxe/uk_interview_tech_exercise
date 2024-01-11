@@ -1,0 +1,39 @@
+uuid: fdaf54cc-efb9-4a42-8b36-e9e9e1b80065
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JlTLbc9GzBIyRIM-GQeXGmuAHrUk1jphd5stgYjtbAM
+id: ukad
+label: UKAD
+type: ad
+account_name_attr: ''
+address: gc.ad.uky.edu
+basedn: 'dc=uky,dc=edu'
+bind_method: service_account
+binddn: ldp_ukit_drupal
+bindpw: null
+encryption: null
+grp_derive_from_dn_attr: ''
+grp_derive_from_dn: '0'
+grp_memb_attr_match_user_attr: ''
+grp_memb_attr: ''
+grp_nested: false
+grp_object_cat: ''
+grp_test_grp_dn_writeable: ''
+grp_test_grp_dn: ''
+grp_unused: false
+grp_user_memb_attr_exists: false
+grp_user_memb_attr: ''
+mail_attr: mail
+mail_template: ''
+picture_attr: ''
+port: 3268
+testing_drupal_user_dn: ''
+testing_drupal_username: ''
+timeout: 10
+unique_persistent_attr_binary: false
+unique_persistent_attr: ''
+user_attr: samaccountname
+user_dn_expression: ''
+weight: null

@@ -1,0 +1,40 @@
+uuid: eb90798b-9c56-4536-8ef4-8ceb92744c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.collection_item.definition_list_item
+    - field.field.collection_item.definition_list_item.field_description
+  module:
+    - text
+_core:
+  default_config_hash: kJqLfg9qJ1asSXUqZPNRXOzu0bNcTc5WF2VoPqkB0a8
+id: collection_item.definition_list_item.default
+targetEntityType: collection_item
+bundle: definition_list_item
+mode: default
+content:
+  field_description:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

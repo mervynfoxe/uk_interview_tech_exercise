@@ -1,0 +1,7 @@
+uuid: 1b187c86-9ee9-4dea-acd9-54bc980c170a
+langcode: en
+status: true
+dependencies: {  }
+id: NXhscRe0440PFpI5dSznEVgmauL25KojD7u4e9aZwOM
+label: 'http://tech-exercise-ren-fox.lndo.site:8000/core/install.php'
+context: {  }

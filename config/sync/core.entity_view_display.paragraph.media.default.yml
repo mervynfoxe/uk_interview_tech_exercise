@@ -1,0 +1,24 @@
+uuid: e2605cd0-e13e-43e4-b868-51b1a38c18d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.media.field_collection_item
+    - paragraphs.paragraphs_type.media
+_core:
+  default_config_hash: _7VIGRXHqsVmvBB5oTaWKt2NfIiL4QYb0HJzR6xkW7A
+id: paragraph.media.default
+targetEntityType: paragraph
+bundle: media
+mode: default
+content:
+  field_collection_item:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: full_width
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

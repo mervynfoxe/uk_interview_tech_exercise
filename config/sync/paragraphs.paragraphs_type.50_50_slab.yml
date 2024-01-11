@@ -1,0 +1,12 @@
+uuid: 3f0073bf-99e4-4778-80d2-fb5e1ec08b6e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pe2aaytEJpcwnbmYpuT2sJ349gVIIXokOB6ValNWT0s
+id: 50_50_slab
+label: '*50:50 Slab'
+icon_uuid: null
+icon_default: null
+description: 'Split component with media and call-to-action.'
+behavior_plugins: {  }

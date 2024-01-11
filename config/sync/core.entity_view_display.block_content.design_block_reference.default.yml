@@ -1,0 +1,24 @@
+uuid: 50cf05a5-9ba1-4868-a351-54d0f0495333
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.design_block_reference
+    - field.field.block_content.design_block_reference.field_collection_item
+_core:
+  default_config_hash: pJp3ji7Rao-ZGA69he9QbzZvnxsnbhN5r2lEspG9j2A
+id: block_content.design_block_reference.default
+targetEntityType: block_content
+bundle: design_block_reference
+mode: default
+content:
+  field_collection_item:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

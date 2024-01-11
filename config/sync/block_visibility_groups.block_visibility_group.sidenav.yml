@@ -1,0 +1,21 @@
+uuid: 1a06535a-59e9-4412-a479-7148f85ca9c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 4llfFt_98Ioy0r5oYSHFjOW1kqtAkxOaNcVM7IbTl_Q
+id: sidenav
+label: Sidenav
+logic: and
+conditions:
+  01c462c9-c298-4f72-b981-b6e12837f9ce:
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: 01c462c9-c298-4f72-b981-b6e12837f9ce
+allow_other_conditions: false

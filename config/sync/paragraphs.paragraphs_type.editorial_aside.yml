@@ -1,0 +1,12 @@
+uuid: 3e0c38c1-2b75-4ab8-b3ef-5383a5893b3f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bm-jD_P0w93gfwAzwcxG3FyNutltUaH5is0qwvmPooQ
+id: editorial_aside
+label: 'Editorial Aside'
+icon_uuid: null
+icon_default: null
+description: 'Content with a floated aside'
+behavior_plugins: {  }

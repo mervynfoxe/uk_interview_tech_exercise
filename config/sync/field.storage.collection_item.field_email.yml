@@ -1,0 +1,20 @@
+uuid: e26dc989-9463-4de6-8a4d-7182b97606e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: cwSfQXm0HgY_TEPW50PhDXYMpvrJpfTRRTmh3cKDxGQ
+id: collection_item.field_email
+field_name: field_email
+entity_type: collection_item
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,31 @@
+uuid: 9f56f21d-41cf-47d2-9fcd-32e86f9dddcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.collection_item.content_reference
+    - field.field.collection_item.content_reference.field_content
+  module:
+    - chosen_field
+_core:
+  default_config_hash: HdgdBIGrPA8ulfJRyR1vn9xG7tpcSoB_X7FlDisvO8U
+id: collection_item.content_reference.default
+targetEntityType: collection_item
+bundle: content_reference
+mode: default
+content:
+  field_content:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: chosen_select
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+hidden:
+  title: true

@@ -1,0 +1,12 @@
+uuid: 73febd3d-ccd3-4cde-b8ed-0d136ff45b97
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nUR_pFl54MGVBrV-iCQHbF73AqkdbZmqFx8CsvhhrzY
+id: embederator
+label: Embederator
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

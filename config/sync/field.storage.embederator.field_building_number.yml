@@ -1,0 +1,23 @@
+uuid: c45acf8a-d05e-461a-8473-0f782ac2110a
+langcode: en
+status: true
+dependencies:
+  module:
+    - embederator
+_core:
+  default_config_hash: iBBseCbcaU2iVYSd10Vf16X_NLwMCz1bKfKui-7inWY
+id: embederator.field_building_number
+field_name: field_building_number
+entity_type: embederator
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

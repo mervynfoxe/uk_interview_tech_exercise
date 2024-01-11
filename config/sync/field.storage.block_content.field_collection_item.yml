@@ -1,0 +1,22 @@
+uuid: 054a1578-bbfd-4417-83ee-0beff10b391d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - eck
+_core:
+  default_config_hash: jVpN7MlMadYX-GnHXPSMwGth6CqEscXfDAO5FUbFYg0
+id: block_content.field_collection_item
+field_name: field_collection_item
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: collection_item
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

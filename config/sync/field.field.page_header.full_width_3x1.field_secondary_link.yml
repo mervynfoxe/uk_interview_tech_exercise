@@ -1,0 +1,25 @@
+uuid: b379145e-2fe6-4135-8c05-e5c33a1e6f4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.page_header.full_width_3x1
+    - field.storage.page_header.field_secondary_link
+  module:
+    - link
+_core:
+  default_config_hash: Vd96J7y9Nbicqr_KxB-3oXcPRokRmjuaeeZ9dFSczz0
+id: page_header.full_width_3x1.field_secondary_link
+field_name: field_secondary_link
+entity_type: page_header
+bundle: full_width_3x1
+label: 'Secondary Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

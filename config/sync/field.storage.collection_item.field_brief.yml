@@ -1,0 +1,20 @@
+uuid: 6ce5d27c-3d65-4f20-8ba5-751ad0946f5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: Kcd5eGDNWzmCr5L6xGKUKbmAF_8Hhjnd3kEzhVlP_20
+id: collection_item.field_brief
+field_name: field_brief
+entity_type: collection_item
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

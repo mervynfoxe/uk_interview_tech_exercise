@@ -1,0 +1,12 @@
+uuid: 5a64002a-7bdb-4ed1-9711-23f8987474b3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZL57df67lnzaNg0nY1aCIxiNz2CwNSlD-7AxJg7GUhA
+id: collection_item
+label: 'Collection Item'
+created: false
+changed: false
+uid: false
+title: true

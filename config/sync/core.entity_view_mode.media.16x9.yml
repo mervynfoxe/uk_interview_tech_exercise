@@ -1,0 +1,13 @@
+uuid: ce3e34a5-84d3-436f-834e-f76582946a7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: aDno-O5LUOGnGilr4C-Z9CU7SsTMZZeH_SpM0XkdKZo
+id: media.16x9
+label: 16x9
+description: ''
+targetEntityType: media
+cache: true

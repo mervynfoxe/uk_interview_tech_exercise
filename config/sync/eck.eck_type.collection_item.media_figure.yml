@@ -1,0 +1,11 @@
+uuid: 5d493670-664f-4aec-a993-4c46971aa796
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.collection_item
+_core:
+  default_config_hash: fXg4kiOkQk4YHzjutcwQsXdeeWpbswJ6SvvkeHmWOQk
+type: media_figure
+name: Media
+description: 'A media item with caption'

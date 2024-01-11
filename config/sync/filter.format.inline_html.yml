@@ -1,0 +1,25 @@
+uuid: 267aa8cf-9ffb-4dc7-8fbd-5137917f4080
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wdfZ2TTn8fs8d3HwgDUkxAi-CtU53w7qfEOX6LP80ok
+name: 'Inline HTML'
+format: inline_html
+weight: -10
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong>'
+      filter_html_help: true
+      filter_html_nofollow: false

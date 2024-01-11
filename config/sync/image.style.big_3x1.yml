@@ -1,0 +1,19 @@
+uuid: bbe18c9a-dbeb-427c-a038-0c84feb1d686
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: xANXGyTpgnI3xj4kepQLZlpC05jgWfx1VHyLFyIVSEM
+name: big_3x1
+label: 'Big 3x1'
+effects:
+  1c9736b1-9bf1-4354-ac19-8c8e2d58cbc5:
+    uuid: 1c9736b1-9bf1-4354-ac19-8c8e2d58cbc5
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 533
+      crop_type: focal_point

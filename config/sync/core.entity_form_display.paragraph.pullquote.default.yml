@@ -1,0 +1,36 @@
+uuid: 186b8c99-6796-4def-8f50-2a818d10cc4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pullquote.field_collection_item
+    - paragraphs.paragraphs_type.pullquote
+  module:
+    - inline_entity_form
+_core:
+  default_config_hash: lapGGf2OhrkRSqfy4ASxBc6c3UuV7tNqO89lAMwFL1g
+id: paragraph.pullquote.default
+targetEntityType: paragraph
+bundle: pullquote
+mode: default
+content:
+  field_collection_item:
+    type: inline_entity_form_complex
+    weight: 7
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

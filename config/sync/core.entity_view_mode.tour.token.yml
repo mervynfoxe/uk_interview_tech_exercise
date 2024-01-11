@@ -1,0 +1,13 @@
+uuid: 08ab4d43-7697-4cbf-b6a9-c4183d650ff2
+langcode: en
+status: true
+dependencies:
+  module:
+    - tour
+_core:
+  default_config_hash: SdOqozywk5jTRL9fL1ccuWJUNApxvunQ_pYqkZgWyOs
+id: tour.token
+label: Token
+description: ''
+targetEntityType: tour
+cache: true

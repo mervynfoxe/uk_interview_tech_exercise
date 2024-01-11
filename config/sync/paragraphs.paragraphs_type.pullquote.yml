@@ -1,0 +1,12 @@
+uuid: 5a0c7ff6-bea8-4b4b-bc72-b772decd5b19
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: agCFQIWnpCFhQlUEYcylX1YhO93DLtYgqTgSuS3F8lU
+id: pullquote
+label: Pullquote
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

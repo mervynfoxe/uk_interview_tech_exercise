@@ -1,0 +1,12 @@
+uuid: 26b5d91a-9135-4a5a-87cd-b13a335db7e9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2Fu03Xo1016q9BKNu3SQMxhxkAUjCkO6v2mejYshYwo
+id: zipper
+label: Zipper
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

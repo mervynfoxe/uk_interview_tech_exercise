@@ -1,0 +1,19 @@
+uuid: 1876c331-2dbb-4c0d-b726-0706b8e065f9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: R2pLPNTSOnuys4eL0QBp3566Nhd7zxJPXUcMpbkOQZk
+id: node
+label: Content
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  image_src: '[node:field_media:entity:field_media_image:medium_16x9:url]'
+  title: '[node:title] | [site:name]'
+  og_description: '[node:summary]'
+  og_image: '[node:field_media:entity:field_media_image:big_16x9:url]'
+  og_site_name: '[site:name] | University of Kentucky'
+  og_title: '[node:title] | [site:name]'
+  og_url: '[node:url]'
+  twitter_cards_image: '[node:field_media:entity:field_media_image:medium_16x9:url]'

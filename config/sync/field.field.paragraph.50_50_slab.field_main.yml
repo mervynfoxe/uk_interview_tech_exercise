@@ -1,0 +1,43 @@
+uuid: 2bdf12de-3c6b-4a1e-b928-09c46e6418c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.collection_item.body
+    - eck.eck_type.collection_item.call_to_action
+    - eck.eck_type.collection_item.custom_teaser
+    - eck.eck_type.collection_item.link_collection
+    - eck.eck_type.collection_item.listing
+    - eck.eck_type.collection_item.media_figure
+    - eck.eck_type.collection_item.pullquote
+    - field.storage.paragraph.field_main
+    - paragraphs.paragraphs_type.50_50_slab
+_core:
+  default_config_hash: mI_t1IvKGsJbdDAo4-49dF7ENLwMCGrs60Fm8D_IVmU
+id: paragraph.50_50_slab.field_main
+field_name: field_main
+entity_type: paragraph
+bundle: 50_50_slab
+label: Left
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:collection_item'
+  handler_settings:
+    target_bundles:
+      body: body
+      call_to_action: call_to_action
+      custom_teaser: custom_teaser
+      listing: listing
+      link_collection: link_collection
+      media_figure: media_figure
+      pullquote: pullquote
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: call_to_action
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: b63920c5-5251-42ef-aead-bad771a23151
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.page_header.split_header_16x9
+    - field.storage.page_header.field_theme_color_scheme
+_core:
+  default_config_hash: Z3WcW2_IujHIT1wnT6R-nsWVvZoqaYOL-2LJXINCKX0
+id: page_header.split_header_16x9.field_theme_color_scheme
+field_name: field_theme_color_scheme
+entity_type: page_header
+bundle: split_header_16x9
+label: 'Color theme'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

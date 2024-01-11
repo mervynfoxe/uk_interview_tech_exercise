@@ -1,0 +1,11 @@
+uuid: cfa56764-d20d-4032-9929-57e00a3d7f2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.page_header
+_core:
+  default_config_hash: qzslXwdKQwzTr_Jppgz8RHIgcARWLVAjiJrbiqMpIBE
+type: split_header
+name: 'Split hero'
+description: 'Hero-style header split between text and image'

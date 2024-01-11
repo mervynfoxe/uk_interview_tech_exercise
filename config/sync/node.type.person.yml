@@ -1,0 +1,19 @@
+uuid: b4b666f8-aac7-417b-904c-0f836bc8df87
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 82DDEFfL7AwxM0tVplt5l1SwuRH4tHpAUJ75upXc7-4
+name: Person
+type: person
+description: 'Faculty or staff profile'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

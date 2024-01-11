@@ -1,0 +1,10 @@
+uuid: 1fe3898d-0d2a-44ed-95b7-9f5e6d2b653e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJEEshuHrCqPhStZ8Nsm7NSReZtcxXQsT8ArCY7wkPo
+id: alphabetical_listing
+label: 'Alphabetical Listing'
+locked: false
+pattern: 'f+(, )g (=(\()c-(\)))'

@@ -1,0 +1,10 @@
+uuid: 941caade-e98c-48ab-9c7c-05f1df74ae4f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lOI_0B1VWB8IYQIaZ6nap0QcXUfqNiCqU0JqzZw29sE
+id: contacts
+label: Contacts
+revision: 0
+description: 'A set of contact blocks'

@@ -1,0 +1,13 @@
+uuid: 18e360df-a189-4bf1-a89d-d065f67884c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: Z7Etuy8KOLvvChG7bq7uuGDY8ddQsAll5JKuG2oG6AQ
+id: media.3x1
+label: 3x1
+description: ''
+targetEntityType: media
+cache: true

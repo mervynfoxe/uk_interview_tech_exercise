@@ -1,0 +1,12 @@
+uuid: 2c96bf11-5b18-4caa-ad87-99c1b141e7c4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SIeT1RWsWSXSppN0IlAFM8x42V8dg3UVHNPZWyCPHbo
+id: page_header
+label: 'Page Header'
+created: false
+changed: false
+uid: false
+title: true

@@ -1,0 +1,21 @@
+uuid: d0cffb96-d10f-4e15-9bfc-e5e3fd672fee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: dRjEKEGi2vpnuFX7Cre16498zOLM-RKHVbc-9WYOURU
+id: event_node
+label: 'Event Node'
+logic: and
+conditions:
+  b07897b6-48b0-4952-b982-af51e10a64db:
+    id: 'entity_bundle:node'
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: b07897b6-48b0-4952-b982-af51e10a64db
+allow_other_conditions: false

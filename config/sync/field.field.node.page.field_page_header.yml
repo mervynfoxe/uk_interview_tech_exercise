@@ -1,0 +1,36 @@
+uuid: 37da3a73-0543-4b4b-9e63-50666fa1db9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.page_header.full_width
+    - eck.eck_type.page_header.split_header
+    - eck.eck_type.page_header.text_only
+    - field.storage.node.field_page_header
+    - node.type.page
+_core:
+  default_config_hash: 0KFoOP7IjPxzoToakDlV2W0xnO7ubYQrB7KM6w1sF4Y
+id: node.page.field_page_header
+field_name: field_page_header
+entity_type: node
+bundle: page
+label: 'Page Header'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:page_header'
+  handler_settings:
+    target_bundles:
+      full_width: full_width
+      full_width_3x1: full_width_3x1
+      split_header: split_header
+      split_header_16x9: split_header_16x9
+      text_only: text_only
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: full_width
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: a6e6a9c5-5cd4-4099-8404-c7be0248bef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.50_50_slab
+  module:
+    - options
+_core:
+  default_config_hash: q8uaQHbgvMNxVK3n4ZbXKQvg2w-L_X7i9WZtnrahi-c
+id: paragraph.50_50_slab.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: 50_50_slab
+label: Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
