@@ -34,7 +34,7 @@ _core:
   default_config_hash: B0_M0_FzZGhHtqkRLyIRgZhaERGzqC9f3nfYsv1rnQ0
 id: site_builder
 label: 'Site Builder'
-weight: 5
+weight: -5
 is_admin: null
 permissions:
   - 'access administration pages'
