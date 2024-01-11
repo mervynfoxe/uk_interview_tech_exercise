@@ -1,4 +1,4 @@
-uuid: 9342fac6-97e8-4b2f-89ba-df55f9940bae
+uuid: fc6e06fe-491b-4cc6-8309-f6aa3d9dfa66
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ entity_type: node
 bundle: course
 label: 'Semesters Offered'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,6 +20,6 @@ settings:
   handler_settings:
     view:
       view_name: semesters
-      display_name: entity_reference_2
+      display_name: entity_reference_3
       arguments: {  }
 field_type: entity_reference

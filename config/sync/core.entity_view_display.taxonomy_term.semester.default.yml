@@ -1,27 +1,25 @@
-uuid: cf8a8ece-4a9c-4c4d-a99c-c9c4436a8b71
+uuid: 850ba13e-62d9-44de-82d8-79e75139c76d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.semester.body
-    - field.field.node.semester.field_end_date
-    - field.field.node.semester.field_start_date
-    - node.type.semester
+    - field.field.taxonomy_term.semester.field_end_date
+    - field.field.taxonomy_term.semester.field_start_date
+    - taxonomy.vocabulary.semester
   module:
     - datetime
     - text
-    - user
-id: node.semester.default
-targetEntityType: node
+id: taxonomy_term.semester.default
+targetEntityType: taxonomy_term
 bundle: semester
 mode: default
 content:
-  body:
+  description:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 0
     region: content
   field_end_date:
     type: datetime_default
@@ -30,7 +28,7 @@ content:
       timezone_override: ''
       format_type: medium
     third_party_settings: {  }
-    weight: 103
+    weight: 2
     region: content
   field_start_date:
     type: datetime_default
@@ -39,11 +37,6 @@ content:
       timezone_override: ''
       format_type: medium
     third_party_settings: {  }
-    weight: 102
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
 hidden: {  }

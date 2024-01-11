@@ -1,19 +1,19 @@
-uuid: 2c807113-8225-4a5b-913f-8511914ed2f0
+uuid: b9f76e7a-3243-408b-85c3-99d4daa1fafd
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_start_date
-    - node.type.semester
+    - field.storage.taxonomy_term.field_start_date
+    - taxonomy.vocabulary.semester
   module:
     - datetime
-id: node.semester.field_start_date
+id: taxonomy_term.semester.field_start_date
 field_name: field_start_date
-entity_type: node
+entity_type: taxonomy_term
 bundle: semester
 label: 'Start Date'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

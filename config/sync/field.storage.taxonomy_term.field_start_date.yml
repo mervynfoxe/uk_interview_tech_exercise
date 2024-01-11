@@ -1,13 +1,13 @@
-uuid: ff9b2fdd-4b5e-4d61-a55d-6772919e4c94
+uuid: 698f46a4-b7d5-4dce-9945-96ae501431e9
 langcode: en
 status: true
 dependencies:
   module:
     - datetime
-    - node
-id: node.field_end_date
-field_name: field_end_date
-entity_type: node
+    - taxonomy
+id: taxonomy_term.field_start_date
+field_name: field_start_date
+entity_type: taxonomy_term
 type: datetime
 settings:
   datetime_type: date

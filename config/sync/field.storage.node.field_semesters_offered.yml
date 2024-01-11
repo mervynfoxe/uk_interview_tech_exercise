@@ -1,15 +1,16 @@
-uuid: 770a5cf4-e5d6-4efe-a299-d5559fc9be94
+uuid: 20ce9107-655a-466d-ac17-475ecb2ccede
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - taxonomy
 id: node.field_semesters_offered
 field_name: field_semesters_offered
 entity_type: node
 type: entity_reference
 settings:
-  target_type: node
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: -1

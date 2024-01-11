@@ -1,19 +1,19 @@
-uuid: d0a53189-5abc-4cc7-bfd3-9d121c6de751
+uuid: b180fb23-560c-4a7d-ade8-57c93925e5d7
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_end_date
-    - node.type.semester
+    - field.storage.taxonomy_term.field_end_date
+    - taxonomy.vocabulary.semester
   module:
     - datetime
-id: node.semester.field_end_date
+id: taxonomy_term.semester.field_end_date
 field_name: field_end_date
-entity_type: node
+entity_type: taxonomy_term
 bundle: semester
 label: 'End Date'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

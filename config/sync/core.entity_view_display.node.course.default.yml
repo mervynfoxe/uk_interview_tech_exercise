@@ -47,7 +47,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 104
+    weight: 106
     region: content
   field_sign_up_link:
     type: link
