@@ -30,6 +30,7 @@
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6.5",
     "drupal/content_snapshot": "^3.0",
+    "drupal/entityreference_filter": "^2.0@beta",
     "drupal/structure_sync": "^2.0",
     "oomphinc/composer-installers-extender": "^2.0",
     "uky-web/uky_base": "^v3.0.13",

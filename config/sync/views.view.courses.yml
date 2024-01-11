@@ -9,11 +9,11 @@ dependencies:
     - field.storage.node.field_semesters_offered
     - field.storage.node.field_sign_up_link
     - node.type.course
-    - taxonomy.vocabulary.semester
+    - views.view.semesters
   module:
+    - entityreference_filter
     - link
     - node
-    - taxonomy
     - text
     - user
 id: courses
@@ -523,24 +523,24 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-        field_semesters_offered_target_id:
-          id: field_semesters_offered_target_id
+        field_semesters_offered_target_id_entityreference_filter:
+          id: field_semesters_offered_target_id_entityreference_filter
           table: node__field_semesters_offered
-          field: field_semesters_offered_target_id
+          field: field_semesters_offered_target_id_entityreference_filter
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: taxonomy_index_tid
+          plugin_id: entityreference_filter_view_result
           operator: or
-          value: {  }
+          value: null
           group: 1
           exposed: true
           expose:
-            operator_id: field_semesters_offered_target_id_op
+            operator_id: field_semesters_offered_target_id_entityreference_filter_op
             label: Semester
             description: ''
             use_operator: false
-            operator: field_semesters_offered_target_id_op
+            operator: field_semesters_offered_target_id_entityreference_filter_op
             operator_limit_selection: false
             operator_list: {  }
             identifier: semester
@@ -558,22 +558,28 @@ display:
             reduce: false
           is_grouped: false
           group_info:
-            label: ''
-            description: ''
-            identifier: ''
+            label: 'Semesters Offered (field_semesters_offered) (entityreference filter)'
+            description: null
+            identifier: field_semesters_offered_target_id_entityreference_filter
             optional: true
             widget: select
             multiple: false
             remember: false
             default_group: All
             default_group_multiple: {  }
-            group_items: {  }
+            group_items:
+              1: {  }
+              2: {  }
+              3: {  }
           reduce_duplicates: false
-          vid: semester
           type: select
-          hierarchy: false
-          limit: true
-          error_message: true
+          reference_display: 'semesters:entity_reference_3'
+          reference_arguments: ''
+          hide_empty_filter: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
       style:
         type: table
         options:
@@ -654,6 +660,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -662,6 +669,7 @@ display:
         - 'config:field.storage.node.field_course_number'
         - 'config:field.storage.node.field_semesters_offered'
         - 'config:field.storage.node.field_sign_up_link'
+        - taxonomy_term_list
   block_1:
     id: block_1
     display_title: 'List Block'
@@ -1126,6 +1134,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -1134,6 +1143,7 @@ display:
         - 'config:field.storage.node.field_course_number'
         - 'config:field.storage.node.field_semesters_offered'
         - 'config:field.storage.node.field_sign_up_link'
+        - taxonomy_term_list
   block_3:
     id: block_3
     display_title: 'Card Block'
@@ -1597,6 +1607,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -1605,6 +1616,7 @@ display:
         - 'config:field.storage.node.field_course_number'
         - 'config:field.storage.node.field_semesters_offered'
         - 'config:field.storage.node.field_sign_up_link'
+        - taxonomy_term_list
   page_1:
     id: page_1
     display_title: Page
@@ -1620,6 +1632,7 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -1628,3 +1641,4 @@ display:
         - 'config:field.storage.node.field_course_number'
         - 'config:field.storage.node.field_semesters_offered'
         - 'config:field.storage.node.field_sign_up_link'
+        - taxonomy_term_list

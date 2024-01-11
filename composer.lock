@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79fd85dbdd84060d7b68842dc0151e67",
+    "content-hash": "9672017c322600247284fd1176121784",
     "packages": [
         {
             "name": "ahebrank/eck_autolabel",
@@ -17011,7 +17011,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/entityreference_filter": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
