@@ -1,0 +1,49 @@
+uuid: 105b381e-812e-4416-bc13-60cf6e09f557
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.semester
+  module:
+    - better_formats
+    - text
+third_party_settings:
+  better_formats:
+    allowed_formats_toggle: false
+    allowed_formats:
+      inline_html: inline_html
+      basic_html: basic_html
+      restricted_html: restricted_html
+      full_html: full_html
+      webform_default: webform_default
+    default_order_toggle: false
+    default_order_wrapper:
+      formats:
+        inline_html:
+          weight: '-10'
+        basic_html:
+          weight: '-9'
+        restricted_html:
+          weight: '-8'
+        full_html:
+          weight: '-7'
+        webform_default:
+          weight: '100'
+id: node.semester.body
+field_name: body
+entity_type: node
+bundle: semester
+label: 'Semester Description'
+description: 'Optional description/note for this semester.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

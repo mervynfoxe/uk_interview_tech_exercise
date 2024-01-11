@@ -1,0 +1,29 @@
+uuid: 9342fac6-97e8-4b2f-89ba-df55f9940bae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_semesters_offered
+    - node.type.course
+    - node.type.semester
+id: node.course.field_semesters_offered
+field_name: field_semesters_offered
+entity_type: node
+bundle: course
+label: 'Semesters Offered'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      semester: semester
+    sort:
+      field: field_start_date
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

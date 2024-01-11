@@ -1,0 +1,22 @@
+uuid: 15e7b6d0-0260-4b8a-94b6-43d0a9aecd63
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.semester
+id: node.semester.promote
+field_name: promote
+entity_type: node
+bundle: semester
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
