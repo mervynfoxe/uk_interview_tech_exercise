@@ -2290,8 +2290,8 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
-          element_class: ''
+          element_type: h3
+          element_class: course-id
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
@@ -2438,8 +2438,8 @@ display:
           label: Offered
           exclude: false
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '<a href="?semester={{ field_semesters_offered__target_id }}">{{ field_semesters_offered }}</a>'
             make_link: false
             path: ''
             absolute: false

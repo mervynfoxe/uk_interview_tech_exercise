@@ -1,11 +1,15 @@
-// Mixins
+// ****** //
+// Mixins //
+// ****** //
 @mixin rounded-button {
   padding: 0.6rem 1rem;
   text-transform: initial;
   border-radius: 0.5rem;
 }
 
-// General styles
+// ************** //
+// General styles //
+// ************** //
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -19,7 +23,9 @@
   word-wrap: normal !important;
 }
 
-// View styles
+// *********** //
+// View styles //
+// *********** //
 .view.view-courses {
   .view-filters {
     .views-exposed-form {
@@ -52,9 +58,41 @@
   }
 
   .view-content {
+    // Styles for all views
+    // --------------------
+    .views-field {
+      margin-bottom: 0.6rem;
+
+      .course-id {
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        font-weight: bold;
+        margin-bottom: 0.6rem;
+      }
+
+      &.views-field-field-college-and-department {
+        font-size: 1.2rem;
+      }
+
+      &.views-field-body {
+
+      }
+
+      &.views-field-field-sign-up-link {
+        .field-content {
+          a.button {
+            @include rounded-button;
+          }
+        }
+      }
+    }
+
     // Styles for list view
+    // --------------------
     .item-list {
-      ul {
+      ul.items {
+        padding-left: 0;
+
         li.course-item {
           list-style-type: none;
 
@@ -64,19 +102,6 @@
           }
 
           .views-field {
-            margin-bottom: 0.6rem;
-
-            .course-id {
-              text-decoration: underline;
-              text-underline-offset: 0.2rem;
-              font-weight: bold;
-              margin-bottom: 0.6rem;
-            }
-
-            &.views-field-field-college-and-department {
-              font-size: 1.2rem;
-            }
-
             &.views-field-field-semesters-offered {
               .views-label {
                 font-weight: bold;
@@ -87,26 +112,19 @@
                 }
               }
             }
-
-            &.views-field-body {
-
-            }
-
-            &.views-field-field-sign-up-link {
-              .field-content {
-                a.button {
-                  @include rounded-button;
-                }
-              }
-            }
           }
         }
       }
     }
 
     // Styles for grid/card view
+    // -------------------------
     .views-view-responsive-grid {
+      .views-view-responsive-grid__item {
+        .views-field {
 
+        }
+      }
     }
   }
 }

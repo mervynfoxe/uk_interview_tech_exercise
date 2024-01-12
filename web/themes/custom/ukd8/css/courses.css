@@ -32,35 +32,38 @@
   color: #fff;
   cursor: pointer;
 }
-.view.view-courses .view-content .item-list ul li.course-item {
-  list-style-type: none;
-}
-.view.view-courses .view-content .item-list ul li.course-item + li {
-  border-top: 1px solid #aaa;
-  margin-top: 1.5rem;
-}
-.view.view-courses .view-content .item-list ul li.course-item .views-field {
+.view.view-courses .view-content .views-field {
   margin-bottom: 0.6rem;
 }
-.view.view-courses .view-content .item-list ul li.course-item .views-field .course-id {
+.view.view-courses .view-content .views-field .course-id {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
   font-weight: bold;
   margin-bottom: 0.6rem;
 }
-.view.view-courses .view-content .item-list ul li.course-item .views-field.views-field-field-college-and-department {
+.view.view-courses .view-content .views-field.views-field-field-college-and-department {
   font-size: 1.2rem;
 }
-.view.view-courses .view-content .item-list ul li.course-item .views-field.views-field-field-semesters-offered .views-label {
-  font-weight: bold;
-}
-.view.view-courses .view-content .item-list ul li.course-item .views-field.views-field-field-semesters-offered .field-content ul li {
-  list-style-type: disc;
-}
-.view.view-courses .view-content .item-list ul li.course-item .views-field.views-field-field-sign-up-link .field-content a.button {
+.view.view-courses .view-content .views-field.views-field-field-sign-up-link .field-content a.button {
   padding: 0.6rem 1rem;
   text-transform: initial;
   border-radius: 0.5rem;
+}
+.view.view-courses .view-content .item-list ul.items {
+  padding-left: 0;
+}
+.view.view-courses .view-content .item-list ul.items li.course-item {
+  list-style-type: none;
+}
+.view.view-courses .view-content .item-list ul.items li.course-item + li {
+  border-top: 1px solid #aaa;
+  margin-top: 1.5rem;
+}
+.view.view-courses .view-content .item-list ul.items li.course-item .views-field.views-field-field-semesters-offered .views-label {
+  font-weight: bold;
+}
+.view.view-courses .view-content .item-list ul.items li.course-item .views-field.views-field-field-semesters-offered .field-content ul li {
+  list-style-type: disc;
 }
 
 /*# sourceMappingURL=courses.css.map */
