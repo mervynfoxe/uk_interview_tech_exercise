@@ -1,0 +1,112 @@
+// Mixins
+@mixin rounded-button {
+  padding: 0.6rem 1rem;
+  text-transform: initial;
+  border-radius: 0.5rem;
+}
+
+// General styles
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+// View styles
+.view.view-courses {
+  .view-filters {
+    .views-exposed-form {
+      .js-form-type-select {
+        .form-select {
+          height: 3rem;
+          margin: 0.5rem 0;
+          padding: 0 2rem 0 1rem;
+          font-size: 1rem;
+          font-weight: normal;
+          background-color: #fff;
+          border: 1px solid #aaa;
+        }
+      }
+
+      .form-actions {
+        .form-submit {
+          @include rounded-button;
+          background-color: #fff;
+          color: #0033a0;
+
+          &:hover {
+            background-color: #0033a0;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .view-content {
+    // Styles for list view
+    .item-list {
+      ul {
+        li.course-item {
+          list-style-type: none;
+
+          & + li {
+            border-top: 1px solid #aaa;
+            margin-top: 1.5rem;
+          }
+
+          .views-field {
+            margin-bottom: 0.6rem;
+
+            .course-id {
+              text-decoration: underline;
+              text-underline-offset: 0.2rem;
+              font-weight: bold;
+              margin-bottom: 0.6rem;
+            }
+
+            &.views-field-field-college-and-department {
+              font-size: 1.2rem;
+            }
+
+            &.views-field-field-semesters-offered {
+              .views-label {
+                font-weight: bold;
+              }
+              .field-content {
+                ul li {
+                  list-style-type: disc;
+                }
+              }
+            }
+
+            &.views-field-body {
+
+            }
+
+            &.views-field-field-sign-up-link {
+              .field-content {
+                a.button {
+                  @include rounded-button;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // Styles for grid/card view
+    .views-view-responsive-grid {
+
+    }
+  }
+}
