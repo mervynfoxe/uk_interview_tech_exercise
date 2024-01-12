@@ -48,6 +48,7 @@ module:
   file_delete: 0
   filter: 0
   focal_point: 0
+  fontawesome: 0
   fourxx_templates: 0
   fpa: 0
   headline_group: 0
