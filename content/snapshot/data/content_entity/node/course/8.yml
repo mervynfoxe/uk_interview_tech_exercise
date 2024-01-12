@@ -1,0 +1,101 @@
+nid:
+  -
+    value: 8
+uuid:
+  -
+    value: 055426f2-1db8-473d-aff0-ba2f36e541d9
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T19:27:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Spanish 1'
+created:
+  -
+    value: '2024-01-12T19:27:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T19:27:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Spanish 1 | UK Tech Exercise - Ren Fox'
+    description: 'A shorter course description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus ipsum, pulvinar a magna a, gravida molestie magna.'
+    canonical_url: 'http://default/node/8'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/8'
+    og_title: 'Spanish 1 | UK Tech Exercise - Ren Fox'
+    og_description: 'A shorter course description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus ipsum, pulvinar a magna a, gravida molestie magna.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>A shorter course description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus ipsum, pulvinar a magna a, gravida molestie magna.</p>\r\n"
+    format: basic_html
+    processed: '<p>A shorter course description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus ipsum, pulvinar a magna a, gravida molestie magna.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: 'Foreign Languages'
+field_course_number:
+  -
+    value: SPA101
+field_semesters_offered:
+  -
+    target_id: 10
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+  -
+    target_id: 12
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/spa101'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '8'
+  uuid: 055426f2-1db8-473d-aff0-ba2f36e541d9
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false
