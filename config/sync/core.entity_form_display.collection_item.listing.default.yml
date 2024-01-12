@@ -15,17 +15,17 @@ bundle: listing
 mode: default
 content:
   field_view:
+    type: viewfield_select
     weight: 3
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: viewfield_select
-    region: content
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield

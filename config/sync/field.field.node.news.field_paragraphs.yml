@@ -22,9 +22,12 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
     target_bundles: null
+    negate: 1
     target_bundles_drag_drop:
+      2_1_slab:
+        weight: -16
+        enabled: false
       body:
         weight: -27
         enabled: false
@@ -37,8 +40,14 @@ settings:
       custom_teasers:
         weight: -24
         enabled: false
+      editorial_aside:
+        weight: -17
+        enabled: false
       feed:
         weight: -23
+        enabled: false
+      flex_grid:
+        weight: -15
         enabled: false
       gallery:
         weight: -22
@@ -54,14 +63,5 @@ settings:
         enabled: false
       zipper:
         weight: -18
-        enabled: false
-      editorial_aside:
-        weight: -17
-        enabled: false
-      2_1_slab:
-        weight: -16
-        enabled: false
-      flex_grid:
-        weight: -15
         enabled: false
 field_type: entity_reference_revisions

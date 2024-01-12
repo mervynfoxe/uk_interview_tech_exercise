@@ -12,10 +12,10 @@ logic: and
 conditions:
   01c462c9-c298-4f72-b981-b6e12837f9ce:
     id: 'entity_bundle:node'
-    bundles:
-      page: page
     negate: false
+    uuid: 01c462c9-c298-4f72-b981-b6e12837f9ce
     context_mapping:
       node: '@node.node_route_context:node'
-    uuid: 01c462c9-c298-4f72-b981-b6e12837f9ce
+    bundles:
+      page: page
 allow_other_conditions: false

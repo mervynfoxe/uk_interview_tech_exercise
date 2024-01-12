@@ -29,5 +29,5 @@ visibility:
   condition_group:
     id: condition_group
     negate: false
-    block_visibility_group: news_node
     context_mapping: {  }
+    block_visibility_group: news_node

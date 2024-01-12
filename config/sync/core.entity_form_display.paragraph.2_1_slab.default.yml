@@ -20,7 +20,9 @@ bundle: 2_1_slab
 mode: default
 content:
   field_aside:
+    type: inline_entity_form_complex
     weight: 2
+    region: content
     settings:
       form_mode: default
       override_labels: true
@@ -29,29 +31,29 @@ content:
       allow_new: true
       allow_existing: true
       match_operator: CONTAINS
+      allow_duplicate: false
       collapsible: false
       collapsed: false
-      allow_duplicate: false
     third_party_settings:
       entity_browser_entity_form:
         entity_browser_id: _none
-    type: inline_entity_form_complex
-    region: content
   field_flip:
+    type: boolean_checkbox
     weight: 3
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   field_headline_group:
+    type: headline_headline_only
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: headline_headline_only
-    region: content
   field_main:
+    type: inline_entity_form_complex
     weight: 1
+    region: content
     settings:
       form_mode: default
       override_labels: true
@@ -60,14 +62,12 @@ content:
       allow_new: true
       allow_existing: true
       match_operator: CONTAINS
+      allow_duplicate: false
       collapsible: false
       collapsed: false
-      allow_duplicate: false
     third_party_settings:
       entity_browser_entity_form:
         entity_browser_id: _none
-    type: inline_entity_form_complex
-    region: content
 hidden:
   created: true
   status: true

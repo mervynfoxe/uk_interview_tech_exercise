@@ -24,13 +24,13 @@ settings:
   provider: menu_block
   follow: false
   follow_parent: '0'
+  label_link: false
+  label_type: block
   level: 1
   depth: 0
   expand_all_items: false
   parent: 'utility-nav:'
   suggestion: utility_nav
-  label_type: block
-  label_link: false
 visibility:
   condition_group:
     id: condition_group

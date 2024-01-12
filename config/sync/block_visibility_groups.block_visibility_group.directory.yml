@@ -12,8 +12,8 @@ logic: and
 conditions:
   8b4001fd-c4d5-43de-92de-c72fde256ba0:
     id: request_path
-    pages: /people
     negate: false
-    context_mapping: {  }
     uuid: 8b4001fd-c4d5-43de-92de-c72fde256ba0
+    context_mapping: {  }
+    pages: /people
 allow_other_conditions: false

@@ -1,6 +1,7 @@
 _core:
   default_config_hash: ScKqybx2fc3YwzqZhzEWUA6p8KUvXXvAB5OG8qZWxc0
 langcode: en
+uuid: 6f1f43ce-03ff-4eaf-8c98-b3bb76ea6326
 name: 'UK Tech Exercise - Ren Fox'
 mail: ren.m.fox@gmail.com
 slogan: ''
@@ -11,4 +12,3 @@ page:
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
-uuid: 6f1f43ce-03ff-4eaf-8c98-b3bb76ea6326

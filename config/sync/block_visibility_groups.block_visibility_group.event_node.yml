@@ -12,10 +12,10 @@ logic: and
 conditions:
   b07897b6-48b0-4952-b982-af51e10a64db:
     id: 'entity_bundle:node'
-    bundles:
-      event: event
     negate: false
+    uuid: b07897b6-48b0-4952-b982-af51e10a64db
     context_mapping:
       node: '@node.node_route_context:node'
-    uuid: b07897b6-48b0-4952-b982-af51e10a64db
+    bundles:
+      event: event
 allow_other_conditions: false

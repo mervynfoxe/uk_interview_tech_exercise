@@ -17,20 +17,20 @@ bundle: body
 mode: default
 content:
   field_body:
-    weight: 1
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 1
     region: content
   field_headline_group:
-    weight: 0
+    type: headline_default
     label: hidden
     settings:
       headline_group_tag: h2
       headline_group_class: ''
       headline_group_bem: '1'
     third_party_settings: {  }
-    type: headline_default
+    weight: 0
     region: content
 hidden: {  }

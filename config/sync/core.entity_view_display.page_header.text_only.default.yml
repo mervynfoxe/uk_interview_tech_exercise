@@ -19,7 +19,7 @@ bundle: text_only
 mode: default
 content:
   field_cta_link:
-    weight: 1
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -28,20 +28,20 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 1
     region: content
   field_headline_group:
-    weight: 0
+    type: headline_default
     label: hidden
     settings:
       headline_group_tag: h1
       headline_group_class: headline-group
       headline_group_bem: '1'
     third_party_settings: {  }
-    type: headline_default
+    weight: 0
     region: content
   field_secondary_link:
-    weight: 2
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -50,7 +50,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 2
     region: content
 hidden:
   field_theme_color_scheme: true

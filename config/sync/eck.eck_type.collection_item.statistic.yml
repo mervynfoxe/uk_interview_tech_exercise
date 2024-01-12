@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.collection_item
 _core:
   default_config_hash: RzHsJxO4RSUVg14u1sDtUHCcW9YCI6ktddp_e0us_7M
-type: statistic
 name: Statistic
+type: statistic
 description: 'A large number or number-like phrase with some short explanation.'

@@ -19,29 +19,29 @@ bundle: image
 mode: default
 content:
   field_attribution:
+    type: string_textfield
     weight: 26
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_media_image:
-    settings:
-      preview_image_style: medium
-      preview_link: true
-      offsets: '50,50'
-      progress_indicator: throbber
-    third_party_settings: {  }
     type: image_focal_point
     weight: 1
     region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: medium
+      preview_link: true
+      offsets: '50,50'
+    third_party_settings: {  }
   field_tags:
+    type: chosen_select
     weight: 27
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: chosen_select
-    region: content
   name:
     type: string_textfield
     weight: 0

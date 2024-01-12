@@ -16,16 +16,16 @@ bundle: feed
 mode: default
 content:
   field_collection_item:
-    weight: 1
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 1
     region: content
   field_headline_group:
-    weight: 0
+    type: headline_default
     label: hidden
     settings:
       headline_group_tag: h2
@@ -33,6 +33,6 @@ content:
       headline_group_bem: '1'
       headline_group_anchor: false
     third_party_settings: {  }
-    type: headline_default
+    weight: 0
     region: content
 hidden: {  }

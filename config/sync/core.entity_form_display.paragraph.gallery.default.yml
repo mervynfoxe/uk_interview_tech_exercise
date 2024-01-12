@@ -20,15 +20,17 @@ bundle: gallery
 mode: default
 content:
   field_body:
+    type: text_textarea
     weight: 1
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
   field_collection_items:
+    type: inline_entity_form_complex
     weight: 2
+    region: content
     settings:
       form_mode: default
       override_labels: true
@@ -37,20 +39,18 @@ content:
       allow_new: true
       allow_existing: true
       match_operator: CONTAINS
+      allow_duplicate: false
       collapsible: false
       collapsed: false
-      allow_duplicate: false
     third_party_settings:
       entity_browser_entity_form:
         entity_browser_id: _none
-    type: inline_entity_form_complex
-    region: content
   field_headline_group:
+    type: headline_headline_only
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: headline_headline_only
-    region: content
 hidden:
   created: true
   status: true

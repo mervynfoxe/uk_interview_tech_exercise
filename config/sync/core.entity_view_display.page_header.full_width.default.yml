@@ -21,7 +21,7 @@ bundle: full_width
 mode: default
 content:
   field_cta_link:
-    weight: 1
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -30,10 +30,10 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 1
     region: content
   field_headline_group:
-    weight: 0
+    type: headline_default
     label: hidden
     settings:
       headline_group_tag: h1
@@ -41,19 +41,19 @@ content:
       headline_group_bem: '1'
       headline_group_anchor: false
     third_party_settings: {  }
-    type: headline_default
+    weight: 0
     region: content
   field_media:
-    weight: 3
+    type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: 16x9
       link: false
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 3
     region: content
   field_secondary_link:
-    weight: 2
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -62,16 +62,16 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 2
     region: content
   field_secondary_media:
     type: entity_reference_entity_view
-    weight: 4
     label: hidden
     settings:
       view_mode: thumbnail
       link: false
     third_party_settings: {  }
+    weight: 4
     region: content
 hidden:
   field_theme_color_scheme: true

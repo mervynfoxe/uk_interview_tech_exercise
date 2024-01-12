@@ -26,6 +26,10 @@ widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
   3977638f-fe3f-4e3e-8079-b1e5a8cb476a:
+    id: dropzonejs_media_entity_inline_entity_form
+    uuid: 3977638f-fe3f-4e3e-8079-b1e5a8cb476a
+    label: 'Add image'
+    weight: -9
     settings:
       submit_text: 'Select image'
       upload_location: 'public://[date:custom:Y]-[date:custom:m]'
@@ -40,37 +44,33 @@ widgets:
       thumbnail_method: contain
       media_type: image
       form_mode: default
-    uuid: 3977638f-fe3f-4e3e-8079-b1e5a8cb476a
-    weight: -9
-    label: 'Add image'
-    id: dropzonejs_media_entity_inline_entity_form
   f7c6af85-316f-40c5-8a49-4785a562ad9f:
+    id: entity_form
+    uuid: f7c6af85-316f-40c5-8a49-4785a562ad9f
+    label: 'Add hosted video'
+    weight: -8
     settings:
       submit_text: 'Save video'
       entity_type: media
       bundle: hosted_video
       form_mode: default
-    uuid: f7c6af85-316f-40c5-8a49-4785a562ad9f
-    weight: -8
-    label: 'Add hosted video'
-    id: entity_form
   3d53559d-4c78-49b2-ba9a-04ecde5535e7:
+    id: view
+    uuid: 3d53559d-4c78-49b2-ba9a-04ecde5535e7
+    label: 'Browse media'
+    weight: -10
     settings:
       submit_text: 'Select media'
       auto_select: false
       view: media_browser
       view_display: entity_browser_1
-    uuid: 3d53559d-4c78-49b2-ba9a-04ecde5535e7
-    weight: -10
-    label: 'Browse media'
-    id: view
   89cfe85c-298c-4668-a91b-fab632301137:
+    id: entity_form
+    uuid: 89cfe85c-298c-4668-a91b-fab632301137
+    label: 'Add audio'
+    weight: 4
     settings:
       submit_text: 'Save audio'
       entity_type: media
       bundle: audio
       form_mode: default
-    uuid: 89cfe85c-298c-4668-a91b-fab632301137
-    weight: 4
-    label: 'Add audio'
-    id: entity_form

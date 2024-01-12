@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.location
 _core:
   default_config_hash: Bgfh5qP-kCZKsUlcOn4Kw3as9e4IIJ5LzbYx-58QE-8
-type: linked_location
 name: 'Linked Location'
+type: linked_location
 description: 'A location with optional link and/or address'

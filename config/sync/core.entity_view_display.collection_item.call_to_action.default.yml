@@ -18,7 +18,7 @@ bundle: call_to_action
 mode: default
 content:
   field_button:
-    weight: 2
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -27,22 +27,22 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 2
     region: content
   field_description:
-    weight: 1
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 1
     region: content
   title:
-    label: hidden
     type: string
-    weight: 0
-    region: content
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_theme_color_scheme: true

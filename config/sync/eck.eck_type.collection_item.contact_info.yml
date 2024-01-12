@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.collection_item
 _core:
   default_config_hash: _3RJ5saQ45wi3jLQzN696zyWBCXWWphKK57B6HwhK9k
-type: contact_info
 name: 'Contact Info'
+type: contact_info
 description: 'Contact information block'

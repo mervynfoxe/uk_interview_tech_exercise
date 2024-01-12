@@ -17,13 +17,13 @@ third_party_settings:
     group_settings:
       children:
         - field_theme_color_scheme
+      label: Settings
       parent_name: ''
       weight: 0
       format_type: settings
       format_settings:
         id: ''
         classes: ''
-      label: Settings
 _core:
   default_config_hash: lJhvz3NOIDBwlG13ZJdtecRN1jmeb2_O06tsYGK_y4E
 id: page_header.text_only.default
@@ -32,41 +32,41 @@ bundle: text_only
 mode: default
 content:
   field_cta_link:
+    type: link_default
     weight: 2
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_headline_group:
+    type: headline_complete
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: headline_complete
-    region: content
   field_secondary_link:
+    type: link_default
     weight: 3
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_theme_color_scheme:
+    type: string_textfield
     weight: 4
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
 hidden:
   title: true

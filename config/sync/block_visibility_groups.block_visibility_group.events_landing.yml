@@ -12,8 +12,8 @@ logic: and
 conditions:
   ce4a3885-fe17-4e0a-acc9-b31554b5adec:
     id: request_path
-    pages: /events
     negate: false
-    context_mapping: {  }
     uuid: ce4a3885-fe17-4e0a-acc9-b31554b5adec
+    context_mapping: {  }
+    pages: /events
 allow_other_conditions: false

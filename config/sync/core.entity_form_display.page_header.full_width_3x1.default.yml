@@ -21,13 +21,13 @@ third_party_settings:
     group_settings:
       children:
         - field_theme_color_scheme
+      label: Settings
       parent_name: ''
       weight: 0
       format_type: settings
       format_settings:
         id: ''
         classes: ''
-      label: Settings
 _core:
   default_config_hash: ZFaza3Py1IFXp9WP98-SGxzc_pDYDAEMA50DUsynp1c
 id: page_header.full_width_3x1.default
@@ -36,71 +36,71 @@ bundle: full_width_3x1
 mode: default
 content:
   field_cta_link:
+    type: link_default
     weight: 3
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_headline_group:
+    type: headline_complete
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: headline_complete
-    region: content
   field_media:
+    type: entity_browser_entity_reference
     weight: 1
+    region: content
     settings:
       entity_browser: media_browser_modal
       field_widget_display: rendered_entity
       field_widget_edit: true
       field_widget_remove: true
+      field_widget_replace: false
       open: true
-      selection_mode: selection_append
       field_widget_display_settings:
         view_mode: half_width
-      field_widget_replace: false
+      selection_mode: selection_append
     third_party_settings: {  }
-    type: entity_browser_entity_reference
-    region: content
   field_secondary_link:
+    type: link_default
     weight: 4
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_secondary_media:
+    type: entity_browser_entity_reference
     weight: 5
+    region: content
     settings:
       entity_browser: media_browser_modal
       field_widget_display: rendered_entity
       field_widget_edit: true
       field_widget_remove: true
+      field_widget_replace: false
       open: true
-      selection_mode: selection_append
       field_widget_display_settings:
         view_mode: thumbnail
-      field_widget_replace: false
+      selection_mode: selection_append
     third_party_settings: {  }
-    type: entity_browser_entity_reference
-    region: content
   field_theme_color_scheme:
+    type: string_textfield
     weight: 6
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
 hidden:
   title: true

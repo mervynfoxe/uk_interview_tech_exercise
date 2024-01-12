@@ -16,13 +16,13 @@ third_party_settings:
     group_settings:
       children:
         - field_theme_color_scheme
+      label: Settings
       parent_name: ''
       weight: 0
       format_type: settings
       format_settings:
         id: ''
         classes: ''
-      label: Settings
 _core:
   default_config_hash: AkdakxS4HoyEx0Kdaat6QTtMiAf57Wk4rAznhumXce0
 id: collection_item.call_to_action.default
@@ -31,35 +31,35 @@ bundle: call_to_action
 mode: default
 content:
   field_button:
+    type: link_default
     weight: 3
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_description:
+    type: text_textarea
     weight: 2
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
   field_theme_color_scheme:
+    type: string_textfield
     weight: 4
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield

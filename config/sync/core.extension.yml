@@ -9,7 +9,6 @@ module:
   block_content: 0
   block_visibility_groups: 0
   breakpoint: 0
-  captcha: 0
   chosen: 0
   chosen_field: 0
   chosen_lib: 0
@@ -91,7 +90,6 @@ module:
   path_alias: 0
   r4032login: 0
   raven: 0
-  recaptcha: 0
   redirect: 0
   responsive_image: 0
   search: 0

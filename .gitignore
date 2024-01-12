@@ -33,3 +33,7 @@
 
 # Ignore files in content snapshot
 /content/snapshot/files
+!/content/snapshot/files/.dummy
+
+# Ignore DB dumps
+/db/

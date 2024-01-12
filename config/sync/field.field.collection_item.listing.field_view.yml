@@ -19,11 +19,11 @@ required: false
 translatable: false
 default_value:
   -
-    token_help: ''
+    target_uuid: 28083d31-e2fc-42a0-a98e-8fd927c068df
     display_id: block_2
     arguments: ''
-    target_uuid: 28083d31-e2fc-42a0-a98e-8fd927c068df
     items_to_display: ''
+    token_help: ''
 default_value_callback: ''
 settings:
   force_default: false

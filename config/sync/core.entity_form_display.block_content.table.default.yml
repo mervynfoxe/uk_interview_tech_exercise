@@ -15,7 +15,9 @@ bundle: table
 mode: default
 content:
   field_info:
+    type: inline_entity_form_simple
     weight: 26
+    region: content
     settings:
       form_mode: default
       override_labels: true
@@ -24,8 +26,6 @@ content:
       collapsible: false
       collapsed: false
     third_party_settings: {  }
-    type: inline_entity_form_simple
-    region: content
   info:
     type: string_textfield
     weight: -5

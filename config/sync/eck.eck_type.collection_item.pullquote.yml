@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.collection_item
 _core:
   default_config_hash: Vx_77zW1i-ZoJarQUvNe7XZ3anPJ8BBtLlQ_y8E-7ZM
-type: pullquote
 name: Pullquote
+type: pullquote
 description: 'A quotation with attribution'

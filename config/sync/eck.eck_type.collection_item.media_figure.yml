@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.collection_item
 _core:
   default_config_hash: fXg4kiOkQk4YHzjutcwQsXdeeWpbswJ6SvvkeHmWOQk
-type: media_figure
 name: Media
+type: media_figure
 description: 'A media item with caption'

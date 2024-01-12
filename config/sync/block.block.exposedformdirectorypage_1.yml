@@ -28,5 +28,5 @@ visibility:
   condition_group:
     id: condition_group
     negate: false
-    block_visibility_group: directory
     context_mapping: {  }
+    block_visibility_group: directory

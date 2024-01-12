@@ -15,14 +15,14 @@ bundle: listing
 mode: default
 content:
   field_view:
-    weight: 0
+    type: viewfield_default
     label: hidden
     settings:
       view_title: hidden
+      always_build_output: false
       empty_view_title: hidden
-      always_build_output: 0
     third_party_settings: {  }
-    type: viewfield_default
+    weight: 0
     region: content
 hidden:
   title: true

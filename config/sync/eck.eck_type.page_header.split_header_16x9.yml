@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.page_header
 _core:
   default_config_hash: e6tT3W4H3yof0Amy57gPMFhDGBXWNz5G8pd2Sir0Cbg
-type: split_header_16x9
 name: 'Split hero (small)'
+type: split_header_16x9
 description: 'Hero-style 16x9 header split between text and image'

@@ -6,7 +6,7 @@ _core:
   default_config_hash: SIeT1RWsWSXSppN0IlAFM8x42V8dg3UVHNPZWyCPHbo
 id: page_header
 label: 'Page Header'
+uid: false
 created: false
 changed: false
-uid: false
 title: true

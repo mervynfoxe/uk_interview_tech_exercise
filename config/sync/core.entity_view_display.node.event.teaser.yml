@@ -27,35 +27,33 @@ bundle: event
 mode: teaser
 content:
   body:
-    label: hidden
     type: text_summary_or_trimmed
-    weight: 3
+    label: hidden
     settings:
       trim_length: 600
     third_party_settings: {  }
+    weight: 3
     region: content
   field_categories:
     type: entity_reference_label
-    weight: 4
-    region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+    weight: 4
+    region: content
   field_dates:
     type: daterange_default
-    weight: 2
-    region: content
     label: hidden
     settings:
       timezone_override: ''
       format_type: long
       separator: '-'
     third_party_settings: {  }
+    weight: 2
+    region: content
   field_headline_group:
     type: headline_default
-    weight: 1
-    region: content
     label: hidden
     settings:
       headline_group_tag: h2
@@ -63,15 +61,17 @@ content:
       headline_group_bem: '1'
       headline_group_anchor: false
     third_party_settings: {  }
+    weight: 1
+    region: content
   field_media:
     type: entity_reference_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: 3x2
       link: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_all_day: true
   field_header_style: true

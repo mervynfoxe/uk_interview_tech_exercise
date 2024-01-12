@@ -6,7 +6,7 @@ _core:
   default_config_hash: HSKLPK-7XgxL9QUdSAoTIQluHt96IO_j8aMCrBdQPBI
 id: location
 label: Location
+uid: false
 created: false
 changed: false
-uid: false
 title: true

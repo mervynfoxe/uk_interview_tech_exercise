@@ -22,47 +22,47 @@ bundle: custom_teaser
 mode: default
 content:
   field_description:
+    type: text_textarea
     weight: 3
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
   field_headline_group:
+    type: headline_complete
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: headline_complete
-    region: content
   field_link:
+    type: link_default
     weight: 4
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_media:
+    type: entity_browser_entity_reference
     weight: 2
+    region: content
     settings:
       entity_browser: media_browser_modal
       field_widget_display: rendered_entity
       field_widget_edit: true
       field_widget_remove: true
       open: true
-      selection_mode: selection_append
       field_widget_display_settings:
         view_mode: thumbnail
+      selection_mode: selection_append
     third_party_settings: {  }
-    type: entity_browser_entity_reference
-    region: content
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield

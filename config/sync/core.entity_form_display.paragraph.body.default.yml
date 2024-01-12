@@ -17,19 +17,19 @@ bundle: body
 mode: default
 content:
   field_body:
+    type: text_textarea
     weight: 1
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
   field_headline_group:
+    type: headline_complete
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: headline_complete
-    region: content
 hidden:
   created: true
   status: true

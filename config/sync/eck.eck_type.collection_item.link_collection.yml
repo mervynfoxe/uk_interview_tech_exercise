@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.collection_item
 _core:
   default_config_hash: '-5ckX8ccM5_Yi3i9vOgd5WQ2buwL7dbkh2LpkJ5Z4nI'
-type: link_collection
 name: 'Link List'
+type: link_collection
 description: 'A collection of described links'

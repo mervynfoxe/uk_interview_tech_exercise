@@ -16,22 +16,22 @@ bundle: flex_grid
 mode: default
 content:
   field_collection_items:
-    weight: 1
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 1
     region: content
   field_headline_group:
-    weight: 0
+    type: headline_default
     label: hidden
     settings:
       headline_group_tag: h2
       headline_group_class: ''
       headline_group_bem: '1'
     third_party_settings: {  }
-    type: headline_default
+    weight: 0
     region: content
 hidden: {  }

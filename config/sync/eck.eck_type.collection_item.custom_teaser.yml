@@ -6,6 +6,6 @@ dependencies:
     - eck.eck_entity_type.collection_item
 _core:
   default_config_hash: I9fgX6sd2GCXqsyJ05uoM-8QzxdnpJbIuJht-xbL0wM
-type: custom_teaser
 name: 'Custom Teaser'
+type: custom_teaser
 description: 'Similar to a content reference, but a DIY teaser'
