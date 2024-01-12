@@ -2380,7 +2380,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '{{ field_course_number }} - {{ title }}'
+            text: '<span class="course-icon"><i class="fa-regular fa-file-lines"></i></span> <span class="course-name">{{ field_course_number }} - {{ title }}</span>'
             make_link: false
             path: ''
             absolute: false
@@ -2486,12 +2486,12 @@ display:
           field: body
           relationship: none
           group_type: group
-          admin_label: 'Description Modal'
+          admin_label: 'Course Description'
           plugin_id: field
           label: ''
-          exclude: false
+          exclude: true
           alter:
-            alter_text: true
+            alter_text: false
             text: "<div id=\"desc-{{ nid }}\" class=\"desc-content mfp-hide\">\r\n  {{ body }}\r\n</div>"
             make_link: false
             path: ''
@@ -2542,19 +2542,68 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+        nothing_3:
+          id: nothing_3
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: 'Description Modal'
+          plugin_id: custom
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "<div id=\"desc-{{ nid }}\" class=\"desc-content mfp-hide\">\r\n  {{ body }}\r\n</div>"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
         nothing_2:
           id: nothing_2
           table: views
           field: nothing
           relationship: none
           group_type: group
-          admin_label: 'Course Description'
+          admin_label: 'Dynamic Course Description'
           plugin_id: custom
           label: ''
           exclude: false
           alter:
             alter_text: true
-            text: "{{ body|length > 255 ? body|striptags|slice(0, 256)|split(' ')|slice(0, -1)|join(' ') ~ '… '|raw : body|raw }}\r\n\r\n{% if body|length > 255 %}\r\n    <a href=\"#desc-{{ nid }}\" class=\"modal-control\"><span aria-hidden=\"true\">More</span><span class=\"screen-reader-text\">Read more about {{ title }}</span></a>\r\n{% endif %}"
+            text: "{{ body|striptags|length > 255 ? body|striptags|slice(0, 256)|split(' ')|slice(0, -1)|join(' ') ~ '… '|raw : body|striptags|raw }}\r\n\r\n{% if body|length > 255 %}\r\n    <a href=\"#desc-{{ nid }}\" class=\"modal-control\"><span aria-hidden=\"true\">More</span><span class=\"screen-reader-text\">Read more about {{ title }}</span></a>\r\n{% endif %}"
             make_link: false
             path: ''
             absolute: false
