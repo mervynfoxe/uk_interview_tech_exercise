@@ -91,4 +91,19 @@
   align-self: end;
 }
 
+.mfp-wrap {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.mfp-wrap.mfp-ready {
+  opacity: 1;
+}
+.mfp-wrap .mfp-container .mfp-content .desc-content {
+  background: #fff;
+  padding: 2rem 3rem;
+  max-width: 70vw;
+  margin: 4rem auto;
+  position: relative;
+}
+
 /*# sourceMappingURL=courses.css.map */
