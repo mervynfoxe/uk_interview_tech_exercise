@@ -38,6 +38,10 @@
           font-weight: normal;
           background-color: #fff;
           border: 1px solid #aaa;
+
+          @media screen and (max-width: 560px) {
+            width: 100%;
+          }
         }
       }
 
@@ -123,6 +127,13 @@
     // Styles for grid/card view
     // -------------------------
     .views-view-responsive-grid {
+      @media screen and (max-width: 1200px) {
+        --views-responsive-grid--column-count: 2 !important;
+      }
+      @media screen and (max-width: 768px) {
+        --views-responsive-grid--column-count: 1 !important;
+      }
+
       .views-view-responsive-grid__item {
         border: 2px solid #0033a0;
         border-radius: 0.5rem;
