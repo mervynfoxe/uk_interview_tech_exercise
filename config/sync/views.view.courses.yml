@@ -2090,7 +2090,7 @@ display:
           default_row_class: true
           type: ul
           wrapper_class: item-list
-          class: ''
+          class: items
       row:
         type: fields
         options: {  }
