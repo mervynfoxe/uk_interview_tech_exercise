@@ -1,0 +1,101 @@
+nid:
+  -
+    value: 7
+uuid:
+  -
+    value: beb93e88-adb7-4f79-94a8-a8d4aa2a0b9f
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T16:06:13+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Intro to Biology'
+created:
+  -
+    value: '2024-01-12T16:06:13+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T16:06:13+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Intro to Biology | UK Tech Exercise - Ren Fox'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus tincidunt elit, vel tempus quam ornare quis. Praesent bibendum tellus dictum, luctus ex in, aliquam lacus. Mauris porta arcu non pharetra tincidunt. Praesent quis gravida mauris. Nullam ac lobortis arcu, eget tristique nisl. Donec aliquam lacus at ullamcorper semper. Suspendisse pulvinar magna non felis aliquam consequat. Fusce suscipit nisl eget libero iaculis scelerisque. Pellentesque aliquet ornare pellentesque. Sed bibendum augue tellus, vitae efficitur turpis dignissim eget.'
+    canonical_url: 'http://default/node/7'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/7'
+    og_title: 'Intro to Biology | UK Tech Exercise - Ren Fox'
+    og_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus tincidunt elit, vel tempus quam ornare quis. Praesent bibendum tellus dictum, luctus ex in, aliquam lacus. Mauris porta arcu non pharetra tincidunt. Praesent quis gravida mauris. Nullam ac lobortis arcu, eget tristique nisl. Donec aliquam lacus at ullamcorper semper. Suspendisse pulvinar magna non felis aliquam consequat. Fusce suscipit nisl eget libero iaculis scelerisque. Pellentesque aliquet ornare pellentesque. Sed bibendum augue tellus, vitae efficitur turpis dignissim eget.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus tincidunt elit, vel tempus quam ornare quis. Praesent bibendum tellus dictum, luctus ex in, aliquam lacus. Mauris porta arcu non pharetra tincidunt. Praesent quis gravida mauris. Nullam ac lobortis arcu, eget tristique nisl. Donec aliquam lacus at ullamcorper semper. Suspendisse pulvinar magna non felis aliquam consequat. Fusce suscipit nisl eget libero iaculis scelerisque. Pellentesque aliquet ornare pellentesque. Sed bibendum augue tellus, vitae efficitur turpis dignissim eget. Integer fringilla lorem massa, id posuere purus gravida ac.</p>\r\n"
+    format: basic_html
+    processed: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus tincidunt elit, vel tempus quam ornare quis. Praesent bibendum tellus dictum, luctus ex in, aliquam lacus. Mauris porta arcu non pharetra tincidunt. Praesent quis gravida mauris. Nullam ac lobortis arcu, eget tristique nisl. Donec aliquam lacus at ullamcorper semper. Suspendisse pulvinar magna non felis aliquam consequat. Fusce suscipit nisl eget libero iaculis scelerisque. Pellentesque aliquet ornare pellentesque. Sed bibendum augue tellus, vitae efficitur turpis dignissim eget. Integer fringilla lorem massa, id posuere purus gravida ac.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: Pre-Med
+field_course_number:
+  -
+    value: BIO101
+field_semesters_offered:
+  -
+    target_id: 9
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+  -
+    target_id: 12
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/bio101'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '7'
+  uuid: beb93e88-adb7-4f79-94a8-a8d4aa2a0b9f
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false

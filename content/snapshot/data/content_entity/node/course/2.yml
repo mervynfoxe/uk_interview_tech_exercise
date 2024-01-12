@@ -1,0 +1,98 @@
+nid:
+  -
+    value: 2
+uuid:
+  -
+    value: 91aa20fa-eecc-48c7-9adb-afd3cbaf19ec
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T16:02:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Advanced Computer Science'
+created:
+  -
+    value: '2024-01-12T16:02:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T16:02:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Advanced Computer Science | UK Tech Exercise - Ren Fox'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis blandit eros et accumsan. Phasellus nec facilisis mauris. Suspendisse elementum pulvinar neque et cursus. Morbi eget ullamcorper arcu, a interdum nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque commodo augue vitae tellus venenatis porttitor. Nunc euismod lectus a enim malesuada, ac convallis diam malesuada. Sed ac ex felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean in tempus augue.'
+    canonical_url: 'http://default/node/2'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/2'
+    og_title: 'Advanced Computer Science | UK Tech Exercise - Ren Fox'
+    og_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis blandit eros et accumsan. Phasellus nec facilisis mauris. Suspendisse elementum pulvinar neque et cursus. Morbi eget ullamcorper arcu, a interdum nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque commodo augue vitae tellus venenatis porttitor. Nunc euismod lectus a enim malesuada, ac convallis diam malesuada. Sed ac ex felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean in tempus augue.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis blandit eros et accumsan. Phasellus nec facilisis mauris. Suspendisse elementum pulvinar neque et cursus. Morbi eget ullamcorper arcu, a interdum nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque commodo augue vitae tellus venenatis porttitor. Nunc euismod lectus a enim malesuada, ac convallis diam malesuada. Sed ac ex felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean in tempus augue. Phasellus et rhoncus tortor. In id turpis nec augue auctor semper at non tortor. Vivamus in arcu mattis, sagittis tortor ac, vulputate quam. Quisque aliquam ac elit quis placerat.</p>\r\n"
+    format: basic_html
+    processed: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis blandit eros et accumsan. Phasellus nec facilisis mauris. Suspendisse elementum pulvinar neque et cursus. Morbi eget ullamcorper arcu, a interdum nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque commodo augue vitae tellus venenatis porttitor. Nunc euismod lectus a enim malesuada, ac convallis diam malesuada. Sed ac ex felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean in tempus augue. Phasellus et rhoncus tortor. In id turpis nec augue auctor semper at non tortor. Vivamus in arcu mattis, sagittis tortor ac, vulputate quam. Quisque aliquam ac elit quis placerat.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: 'College of Computer Science'
+field_course_number:
+  -
+    value: CS201
+field_semesters_offered:
+  -
+    target_id: 9
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/cs201'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '2'
+  uuid: 91aa20fa-eecc-48c7-9adb-afd3cbaf19ec
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false

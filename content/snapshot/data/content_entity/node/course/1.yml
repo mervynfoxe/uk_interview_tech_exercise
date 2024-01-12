@@ -1,0 +1,98 @@
+nid:
+  -
+    value: 1
+uuid:
+  -
+    value: 898029b6-fc56-4f6f-b941-f5e92fb2f48a
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T16:01:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Intro to Computer Science'
+created:
+  -
+    value: '2024-01-12T16:01:36+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T16:01:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Intro to Computer Science | UK Tech Exercise - Ren Fox'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu maximus neque, at euismod diam. Donec porttitor orci a quam cursus ullamcorper. Nunc quis egestas mi. Cras eget dapibus ex, eget volutpat ante. Suspendisse nunc lacus, volutpat sed dui sit amet, placerat sodales mi. Nulla convallis faucibus libero sed tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget ultrices neque. Etiam in dolor quis lorem rutrum feugiat sed eu diam. Proin ullamcorper neque quis porta bibendum.'
+    canonical_url: 'http://default/node/1'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/1'
+    og_title: 'Intro to Computer Science | UK Tech Exercise - Ren Fox'
+    og_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu maximus neque, at euismod diam. Donec porttitor orci a quam cursus ullamcorper. Nunc quis egestas mi. Cras eget dapibus ex, eget volutpat ante. Suspendisse nunc lacus, volutpat sed dui sit amet, placerat sodales mi. Nulla convallis faucibus libero sed tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget ultrices neque. Etiam in dolor quis lorem rutrum feugiat sed eu diam. Proin ullamcorper neque quis porta bibendum.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu maximus neque, at euismod diam. Donec porttitor orci a quam cursus ullamcorper. Nunc quis egestas mi. Cras eget dapibus ex, eget volutpat ante. Suspendisse nunc lacus, volutpat sed dui sit amet, placerat sodales mi. Nulla convallis faucibus libero sed tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget ultrices neque. Etiam in dolor quis lorem rutrum feugiat sed eu diam. Proin ullamcorper neque quis porta bibendum.</p>\r\n"
+    format: basic_html
+    processed: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu maximus neque, at euismod diam. Donec porttitor orci a quam cursus ullamcorper. Nunc quis egestas mi. Cras eget dapibus ex, eget volutpat ante. Suspendisse nunc lacus, volutpat sed dui sit amet, placerat sodales mi. Nulla convallis faucibus libero sed tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget ultrices neque. Etiam in dolor quis lorem rutrum feugiat sed eu diam. Proin ullamcorper neque quis porta bibendum.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: 'College of Computer Science'
+field_course_number:
+  -
+    value: CS101
+field_semesters_offered:
+  -
+    target_id: 9
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/cs101'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '1'
+  uuid: 898029b6-fc56-4f6f-b941-f5e92fb2f48a
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false

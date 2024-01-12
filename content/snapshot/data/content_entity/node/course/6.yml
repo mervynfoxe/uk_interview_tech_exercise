@@ -1,0 +1,98 @@
+nid:
+  -
+    value: 6
+uuid:
+  -
+    value: bc5b4ebe-0707-4c24-b4e9-622b95be99ea
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T16:05:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Calculus 2'
+created:
+  -
+    value: '2024-01-12T16:05:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T16:05:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Calculus 2 | UK Tech Exercise - Ren Fox'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus consequat turpis porttitor dolor dapibus blandit. Cras at eros in lacus blandit vehicula at ac orci. Nam vitae ex metus. Donec ut magna neque. Nulla rutrum volutpat ante vitae molestie. Donec auctor sodales leo, vel tincidunt tortor rutrum at. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+    canonical_url: 'http://default/node/6'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/6'
+    og_title: 'Calculus 2 | UK Tech Exercise - Ren Fox'
+    og_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus consequat turpis porttitor dolor dapibus blandit. Cras at eros in lacus blandit vehicula at ac orci. Nam vitae ex metus. Donec ut magna neque. Nulla rutrum volutpat ante vitae molestie. Donec auctor sodales leo, vel tincidunt tortor rutrum at. Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus consequat turpis porttitor dolor dapibus blandit. Cras at eros in lacus blandit vehicula at ac orci. Nam vitae ex metus. Donec ut magna neque. Nulla rutrum volutpat ante vitae molestie. Donec auctor sodales leo, vel tincidunt tortor rutrum at. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>\r\n"
+    format: basic_html
+    processed: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus consequat turpis porttitor dolor dapibus blandit. Cras at eros in lacus blandit vehicula at ac orci. Nam vitae ex metus. Donec ut magna neque. Nulla rutrum volutpat ante vitae molestie. Donec auctor sodales leo, vel tincidunt tortor rutrum at. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: 'College of Mathematics'
+field_course_number:
+  -
+    value: CA201
+field_semesters_offered:
+  -
+    target_id: 9
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/ca201'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '6'
+  uuid: bc5b4ebe-0707-4c24-b4e9-622b95be99ea
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false

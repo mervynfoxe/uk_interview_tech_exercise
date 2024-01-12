@@ -1,0 +1,101 @@
+nid:
+  -
+    value: 5
+uuid:
+  -
+    value: dfded2b9-d787-4cd0-beb6-dd9dbd5214db
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T16:04:24+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Calculus 1'
+created:
+  -
+    value: '2024-01-12T16:04:24+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T16:04:24+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Calculus 1 | UK Tech Exercise - Ren Fox'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae lorem quis sem euismod pretium id rhoncus magna. Sed sodales semper hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus a ornare ante. Donec aliquam ultricies turpis, sed molestie lacus maximus vel. Vivamus in vestibulum turpis, cursus imperdiet purus. Sed lacinia tortor accumsan sodales tincidunt. Mauris aliquet tortor non purus fermentum cursus. Nullam non nibh vel ex luctus consequat et eu libero. Donec lacinia vulputate magna nec pulvinar. Proin faucibus massa at aliquet congue.'
+    canonical_url: 'http://default/node/5'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/5'
+    og_title: 'Calculus 1 | UK Tech Exercise - Ren Fox'
+    og_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae lorem quis sem euismod pretium id rhoncus magna. Sed sodales semper hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus a ornare ante. Donec aliquam ultricies turpis, sed molestie lacus maximus vel. Vivamus in vestibulum turpis, cursus imperdiet purus. Sed lacinia tortor accumsan sodales tincidunt. Mauris aliquet tortor non purus fermentum cursus. Nullam non nibh vel ex luctus consequat et eu libero. Donec lacinia vulputate magna nec pulvinar. Proin faucibus massa at aliquet congue.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae lorem quis sem euismod pretium id rhoncus magna. Sed sodales semper hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus a ornare ante. Donec aliquam ultricies turpis, sed molestie lacus maximus vel. Vivamus in vestibulum turpis, cursus imperdiet purus. Sed lacinia tortor accumsan sodales tincidunt. Mauris aliquet tortor non purus fermentum cursus. Nullam non nibh vel ex luctus consequat et eu libero. Donec lacinia vulputate magna nec pulvinar. Proin faucibus massa at aliquet congue.</p>\r\n"
+    format: basic_html
+    processed: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae lorem quis sem euismod pretium id rhoncus magna. Sed sodales semper hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus a ornare ante. Donec aliquam ultricies turpis, sed molestie lacus maximus vel. Vivamus in vestibulum turpis, cursus imperdiet purus. Sed lacinia tortor accumsan sodales tincidunt. Mauris aliquet tortor non purus fermentum cursus. Nullam non nibh vel ex luctus consequat et eu libero. Donec lacinia vulputate magna nec pulvinar. Proin faucibus massa at aliquet congue.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: 'College of Mathematics'
+field_course_number:
+  -
+    value: CA101
+field_semesters_offered:
+  -
+    target_id: 9
+    target_type: taxonomy_term
+  -
+    target_id: 10
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/ca101'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '5'
+  uuid: dfded2b9-d787-4cd0-beb6-dd9dbd5214db
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false

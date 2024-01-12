@@ -1,59 +1,52 @@
-nid:
+tid:
   -
-    value: 3
+    value: 11
 uuid:
   -
-    value: 4ab6df1c-58c4-4003-8274-df7a0847cacf
+    value: f8f406ad-1ced-453a-8a73-52645ab459e6
 langcode:
   -
     value: en
-type:
+vid:
   -
     target_id: semester
-    target_type: node_type
-revision_timestamp:
+    target_type: taxonomy_vocabulary
+revision_created:
   -
-    value: '2024-01-11T20:53:44+00:00'
+    value: '2024-01-12T16:01:13+00:00'
     format: 'Y-m-d\TH:i:sP'
-revision_uid:
-  -
-    target_id: 1
-    target_type: user
-revision_log: {  }
+revision_user: {  }
+revision_log_message: {  }
 status:
   -
     value: true
-uid:
-  -
-    target_id: 1
-    target_type: user
-title:
+name:
   -
     value: 'Fall 2024'
-created:
+description:
   -
-    value: '2024-01-11T20:39:50+00:00'
-    format: 'Y-m-d\TH:i:sP'
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: null
 changed:
   -
-    value: '2024-01-11T20:53:44+00:00'
+    value: '2024-01-12T16:01:13+00:00'
     format: 'Y-m-d\TH:i:sP'
-promote:
-  -
-    value: false
-sticky:
-  -
-    value: false
 default_langcode:
   -
     value: true
 metatag:
   value:
     title: 'Fall 2024 | UK Tech Exercise - Ren Fox'
-    canonical_url: 'http://default/node/3'
+    canonical_url: 'http://default/taxonomy/term/11'
     og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
-    og_url: 'http://default/node/3'
-    og_title: 'Fall 2024 | UK Tech Exercise - Ren Fox'
+    og_title: '| UK Tech Exercise - Ren Fox'
     twitter_cards_type: summary_large_image
     twitter_cards_title: '| UK Tech Exercise - Ren Fox'
     twitter_cards_page_url: 'http://default/user/login'
@@ -62,7 +55,6 @@ path:
     alias: null
     pid: null
     langcode: en
-body: {  }
 field_end_date:
   -
     value: '2024-12-20'
@@ -70,10 +62,10 @@ field_start_date:
   -
     value: '2024-08-26'
 _content_snapshot_metadata:
-  id: '3'
-  uuid: 4ab6df1c-58c4-4003-8274-df7a0847cacf
+  id: '11'
+  uuid: f8f406ad-1ced-453a-8a73-52645ab459e6
   type: content_entity
   additional:
-    entity_type: node
+    entity_type: taxonomy_term
     bundle: semester
     is_translatable: false

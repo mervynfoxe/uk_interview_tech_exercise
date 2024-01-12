@@ -1,0 +1,98 @@
+nid:
+  -
+    value: 4
+uuid:
+  -
+    value: f8702e07-acc2-4dd1-b627-312a40c4bd96
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: course
+    target_type: node_type
+revision_timestamp:
+  -
+    value: '2024-01-12T16:03:27+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_id: 1
+    target_type: user
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_id: 1
+    target_type: user
+title:
+  -
+    value: 'Advanced Statistics'
+created:
+  -
+    value: '2024-01-12T16:03:27+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2024-01-12T16:03:27+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    title: 'Advanced Statistics | UK Tech Exercise - Ren Fox'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed sem ut augue auctor tincidunt. Curabitur ex nisi, sodales non mauris in, laoreet malesuada erat. Vivamus ultrices blandit diam vel consequat. In vel diam nec urna fringilla maximus in quis leo. Curabitur eu elementum sapien, eu iaculis sapien. Ut vehicula ultrices tortor vel rutrum. Vivamus aliquet rutrum auctor. Suspendisse eget est arcu. Cras molestie mauris ac pulvinar porttitor. Cras ut sollicitudin quam, a consequat dui. Duis lacus lectus, faucibus et interdum in, luctus et enim.'
+    canonical_url: 'http://default/node/4'
+    og_site_name: 'UK Tech Exercise - Ren Fox | University of Kentucky'
+    og_url: 'http://default/node/4'
+    og_title: 'Advanced Statistics | UK Tech Exercise - Ren Fox'
+    og_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed sem ut augue auctor tincidunt. Curabitur ex nisi, sodales non mauris in, laoreet malesuada erat. Vivamus ultrices blandit diam vel consequat. In vel diam nec urna fringilla maximus in quis leo. Curabitur eu elementum sapien, eu iaculis sapien. Ut vehicula ultrices tortor vel rutrum. Vivamus aliquet rutrum auctor. Suspendisse eget est arcu. Cras molestie mauris ac pulvinar porttitor. Cras ut sollicitudin quam, a consequat dui. Duis lacus lectus, faucibus et interdum in, luctus et enim.'
+    twitter_cards_type: summary_large_image
+    twitter_cards_title: '| UK Tech Exercise - Ren Fox'
+    twitter_cards_page_url: 'http://default/user/login'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed sem ut augue auctor tincidunt. Curabitur ex nisi, sodales non mauris in, laoreet malesuada erat. Vivamus ultrices blandit diam vel consequat. In vel diam nec urna fringilla maximus in quis leo. Curabitur eu elementum sapien, eu iaculis sapien. Ut vehicula ultrices tortor vel rutrum. Vivamus aliquet rutrum auctor. Suspendisse eget est arcu. Cras molestie mauris ac pulvinar porttitor. Cras ut sollicitudin quam, a consequat dui. Duis lacus lectus, faucibus et interdum in, luctus et enim. Aliquam maximus rutrum erat tempus volutpat. Duis consequat ante ac nisl rhoncus tristique.</p>\r\n"
+    format: basic_html
+    processed: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed sem ut augue auctor tincidunt. Curabitur ex nisi, sodales non mauris in, laoreet malesuada erat. Vivamus ultrices blandit diam vel consequat. In vel diam nec urna fringilla maximus in quis leo. Curabitur eu elementum sapien, eu iaculis sapien. Ut vehicula ultrices tortor vel rutrum. Vivamus aliquet rutrum auctor. Suspendisse eget est arcu. Cras molestie mauris ac pulvinar porttitor. Cras ut sollicitudin quam, a consequat dui. Duis lacus lectus, faucibus et interdum in, luctus et enim. Aliquam maximus rutrum erat tempus volutpat. Duis consequat ante ac nisl rhoncus tristique.</p>'
+    summary: ''
+field_college_and_department:
+  -
+    value: 'College of Mathematics'
+field_course_number:
+  -
+    value: ST201
+field_semesters_offered:
+  -
+    target_id: 9
+    target_type: taxonomy_term
+  -
+    target_id: 11
+    target_type: taxonomy_term
+field_sign_up_link:
+  -
+    uri: 'internal:/register/st201'
+    title: ''
+    options: {  }
+_content_snapshot_metadata:
+  id: '4'
+  uuid: f8702e07-acc2-4dd1-b627-312a40c4bd96
+  type: content_entity
+  additional:
+    entity_type: node
+    bundle: course
+    is_translatable: false
