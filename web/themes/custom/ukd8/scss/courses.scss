@@ -27,6 +27,8 @@
 // View styles //
 // *********** //
 .view.view-courses {
+  // Styles for filter form
+  // ----------------------
   .view-filters {
     .views-exposed-form {
       .js-form-type-select {
@@ -41,6 +43,32 @@
 
           @media screen and (max-width: 560px) {
             width: 100%;
+          }
+        }
+      }
+
+      .view-type-selector {
+        margin-bottom: 0.75rem;
+
+        .label {
+          font-size: 1.1667rem;
+        }
+
+        ul {
+          display: inline;
+          padding-left: 0;
+
+          li {
+            display: inline;
+            list-style-type: none;
+            margin: 0 0.5rem;
+
+            a {
+              &.current {
+                text-decoration: none;
+                font-weight: bold;
+              }
+            }
           }
         }
       }

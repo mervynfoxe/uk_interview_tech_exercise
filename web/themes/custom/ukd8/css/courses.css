@@ -25,6 +25,25 @@
     width: 100%;
   }
 }
+.view.view-courses .view-filters .views-exposed-form .view-type-selector {
+  margin-bottom: 0.75rem;
+}
+.view.view-courses .view-filters .views-exposed-form .view-type-selector .label {
+  font-size: 1.1667rem;
+}
+.view.view-courses .view-filters .views-exposed-form .view-type-selector ul {
+  display: inline;
+  padding-left: 0;
+}
+.view.view-courses .view-filters .views-exposed-form .view-type-selector ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 0.5rem;
+}
+.view.view-courses .view-filters .views-exposed-form .view-type-selector ul li a.current {
+  text-decoration: none;
+  font-weight: bold;
+}
 .view.view-courses .view-filters .views-exposed-form .form-actions .form-submit {
   padding: 0.6rem 1rem;
   text-transform: initial;
